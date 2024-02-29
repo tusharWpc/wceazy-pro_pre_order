@@ -263,7 +263,7 @@
             </div>
             <div class="wceazy_module_details">
                 <h3>
-                    <?php esc_html_e('PDF Invoice & Packing Slips', 'wceazy'); ?>
+                    <?php esc_html_e('Shipping Bar', 'wceazy'); ?>
                 </h3>
                 <div class="wceazy_module_action">
                     <label class="toggle_switch">
