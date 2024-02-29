@@ -1,0 +1,902 @@
+/* ===============
+Product Filter
+================ */
+#wceazy_order_cancel{
+    display: none;
+}
+
+
+.wceazy_order_cancel_header {
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    flex-direction: row;
+    column-gap: 10px;
+    box-shadow: 0 13px 22px -5px rgb(0 0 0 / 6%);
+}
+.wceazy_order_cancel_header .wceazy_header_part_left p {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+    position: relative;
+}
+.wceazy_order_cancel_header .wceazy_header_part_left p span {
+    position: absolute;
+    top: 0;
+    right: -60px;
+    background: #6E32C9;
+    padding: 0px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+.wceazy_order_cancel_header .wceazy_header_part_right a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+.wceazy_order_cancel_page_title{
+    margin: 20px 53px 0 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    border-bottom: 1px solid #DDD8EE;
+}
+
+.wceazy_order_cancel_page_title .page_title_part_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.wceazy_order_cancel_page_title .page_title_part_left h2 {
+    position: relative;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 25px 0;
+}
+.wceazy_order_cancel_page_title .page_title_part_left h2:after {
+    position: absolute;
+    content: "";
+    background: #6E32C9;
+    top: auto;
+    bottom: -26px;
+    width: 100%;
+    height: 2px;
+    left: 0;
+}
+
+.wceazy_order_cancel_page_title .page_title_part_left a {
+    margin-left: 100px;
+    color: #6E32C9;
+    margin-top: 15px;
+    font-size: 15px;
+    display: block;
+}
+
+.wceazy_order_cancel_page_title .page_title_part_right button.wceazy_order_cancel_copy_shortcode {
+    cursor: pointer;
+    margin: 0 10px 0 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #ffffff url(../../img/modules/order_cancel/shortcode_copy_icon.svg) no-repeat;
+    background-size: 15px;
+    background-position-x: 10px;
+    background-position-y: center;
+    color: #6E32C9;
+    border: 1px solid #6E32C9;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding: 8px 14px 8px 35px;
+    font-size: 14px;
+}
+.wceazy_order_cancel_page_title .page_title_part_right button.wceazy_order_cancel_back_to_dashboard_btn {
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    color: #FF521D;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .3s;
+    background: #F6F5FA url("../../img/wceazy_back_to_dashboard.svg") no-repeat;
+    background-size: 14px;
+    background-position-x: 10px;
+    background-position-y: center;
+    padding: 5px 10px 5px 30px;
+}
+
+
+
+.wceazy_order_cancel_container{
+    padding: 50px 50px;
+}
+
+
+
+
+
+/* Input Field Customization */
+.wceazy_order_cancel_field_group{
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+.wceazy_order_cancel_field_group label{
+    width: 25%;
+    color: #191D23;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display:block;
+    margin-top: 10px;
+}
+.wceazy_order_cancel_field_group .field_with_msg_container{
+    display: block;
+    width: 30%;
+}
+.wceazy_order_cancel_field_group .wceazy_order_cancel_text_field{
+    padding: 12px 8px;
+    background: #FFFFFF;
+    border: 1px solid #BDCEF1;
+    border-radius: 8px;
+    width: 100%;
+}
+.wceazy_order_cancel_field_group .wceazy_order_cancel_select_field{
+    padding: 12px 20px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #BDCEF1;
+    color:#5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+
+.wceazy_order_cancel_field_group small{
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+/* Color Picker Field */
+.wceazy_order_cancel_field_group .color_picker_area {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 36px;
+    background: #f6f8fa;
+    border: 1px solid #E4E4E6;
+    border-radius: 3px;
+}
+.wceazy_order_cancel_field_group .color_picker_area label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2B2A2D;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.wceazy_order_cancel_field_group .color_picker_area input[type="color"] {
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    padding: 0;
+    height: 36px;
+    width: 108px;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+    border: 1px;
+}
+.wceazy_order_cancel_field_group .color_picker_area input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+.wceazy_order_cancel_field_group .color_picker_area input[type="color"]::-webkit-color-swatch {
+    border-color: transparent;
+    border-radius: 3px;
+}
+
+
+
+
+
+/* Select2 Customization */
+
+#wceazy_order_cancel .select2-container {
+    display: block;
+}
+#wceazy_order_cancel .select2-container--default .select2-selection--multiple .select2-selection__choice{
+    padding: 5px;
+    padding-left: 20px;
+}
+#wceazy_order_cancel .select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+    top: 3px;
+}
+#wceazy_order_cancel .select2-container--default .select2-selection--multiple{
+    padding: 12px 20px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #BDCEF1;
+    color:#5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+#wceazy_order_cancel .select2-container .select2-selection--single{
+    height: 50px;
+}
+#wceazy_order_cancel .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+}
+#wceazy_order_cancel .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top:13px;
+}
+
+#wceazy_order_cancel .select2-container--default .select2-selection--single,
+#wceazy_order_cancel .select2-container--open .select2-dropdown {
+    border: 1px solid #BDCEF1;
+    border-radius: 5px;
+}
+
+
+/* Slider Checkbox customization */
+.wceazy_order_cancel_field_group .toggle_switch{
+    font-size: 19px;
+    position: relative;
+    display: inline-block;
+    width: 51px;
+    height: 25px;
+    margin-left: 0;
+}
+.wceazy_order_cancel_field_group .toggle_switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.wceazy_order_cancel_field_group .toggle_switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.wceazy_order_cancel_field_group .toggle_switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 17px;
+    width: 17px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.wceazy_order_cancel_field_group .toggle_switch input:checked + .slider {
+    background-color: #6E32C9;
+}
+.wceazy_order_cancel_field_group .toggle_switch input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+.wceazy_order_cancel_field_group .toggle_switch input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.wceazy_order_cancel_field_group .toggle_switch .slider.round {
+    border-radius: 34px;
+}
+.wceazy_order_cancel_field_group .toggle_switch .slider.round:before {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+.wceazy_order_cancel_tab{
+    margin: 0;
+    display: flex;
+    padding-top: 5px;
+}
+
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_left {
+    width: 20% ;
+    height: 200px;
+    border-top: 1px solid #DDD8EE;
+}
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_left .coupon_data_tabs .tab_item {
+    padding: 10px 56px;
+    cursor: pointer;
+    border-bottom: 1px solid #DDD8EE;
+}
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_left .coupon_data_tabs .tab_item{
+    border-left: 4px solid transparent;
+    transition: .3s;
+}
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_left .coupon_data_tabs .tab_item:hover {
+    background-color: #FFFF;
+    border-left: 4px solid #6E32C9;
+    transition: .3s;
+}
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_left .coupon_data_tabs .tab_item:hover h1 {
+    color:#6E32C9;
+}
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_left .coupon_data_tabs .tab_item h1 {
+    color: #050505;
+    font-weight: 600;
+    font-size: 18px;
+}
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_left .coupon_data_tabs .tab_item_active {
+    background-color: #FFFF;
+    border-left: 4px solid #6E32C9;
+    transition: .3s;
+}
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_left .coupon_data_tabs .tab_item_active  h1{
+    color:#6E32C9;
+}
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_left .coupon_data_tabs .tab_item_active {
+    background-color: #FFFF;
+    border-left: 4px solid #6E32C9;
+    transition: .3s;
+}
+
+
+
+
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_right {
+    width: 80%;
+    background: #ffffff;
+    padding: 50px 50px 60px 50px;
+}
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_right .tab_body_title{
+    border-bottom: 1px solid #E3E0ED;
+    padding-bottom: 15px;
+}
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_right .tab_body_title h1{
+    font-size: 28px;
+    color: #6E32C9;
+    font-weight: 700;
+}
+.wceazy_order_cancel_tab .wceazy_order_cancel_tab_part_right h4{
+    font-size: 20px;
+    color: #6E32C9;
+    font-weight: 600;
+    border-bottom: 1px solid #E3E0ED;
+    border-bottom-style: dashed;
+    padding: 0 0 20px 0;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+.wceazy_order_cancel_bottom_button_section{
+    display: flex;
+    justify-content: right;
+    margin-top: 60px;
+}
+.wceazy_order_cancel_bottom_button_section button{
+    text-decoration: none;
+    background-color: #6E32C9;
+    padding: 17px 30px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.3s;
+    border:  1px solid transparent
+}
+.wceazy_order_cancel_bottom_button_section button:hover{
+    border:  1px solid #6E32C9;
+    background: transparent;
+    color: #6E32C9 ;
+    cursor: pointer;
+}
+
+
+/* Horizontal tab CSS */
+.wceazy-main .wceazy-container .wceazy_horizontal_tab{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wceazy-main .wceazy-container .wceazy_horizontal_tab .wceazy_order_cancel_tab_part_right,
+.wceazy-main .wceazy-container .wceazy_horizontal_tab .wceazy_order_cancel_tab_part_left{
+    width: 100%;
+}
+
+.wceazy_horizontal_tab .wceazy_order_cancel_tab_part_left{
+    height: unset !important;
+}
+.wceazy_horizontal_tab .wceazy_order_cancel_tab_part_left .coupon_data_tabs{
+    display: flex;
+}
+.wceazy_horizontal_tab .wceazy_order_cancel_tab_part_left .coupon_data_tabs .tab_item:not(.tab_item_active) {
+    border-left: 1px solid #DDD8EE !important;
+    
+}
+.wceazy_horizontal_tab .wceazy_order_cancel_tab_part_left .coupon_data_tabs .tab_item.tab_item_active {
+    border-bottom: 0px !important;
+}
+
+
+/* ===============
+From Auto Apply Coupon
+================ */
+#wceazy_order_cancel{
+    display: none;
+}
+
+
+.wceazy_order_cancel_header {
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    flex-direction: row;
+    column-gap: 10px;
+    box-shadow: 0 13px 22px -5px rgb(0 0 0 / 6%);
+}
+.wceazy_order_cancel_header .wceazy_header_part_left p {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+    position: relative;
+}
+.wceazy_order_cancel_header .wceazy_header_part_left p span {
+    position: absolute;
+    top: 0;
+    right: -60px;
+    background: #6E32C9;
+    padding: 0px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+.wceazy_order_cancel_header .wceazy_header_part_right a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+.wceazy_order_cancel_page_title{
+    margin: 20px 53px 0 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    border-bottom: 1px solid #DDD8EE;
+}
+
+.wceazy_order_cancel_page_title .page_title_part_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.wceazy_order_cancel_page_title .page_title_part_left h2 {
+    position: relative;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 25px 0;
+}
+.wceazy_order_cancel_page_title .page_title_part_left h2:after {
+    position: absolute;
+    content: "";
+    background: #6E32C9;
+    top: auto;
+    bottom: -26px;
+    width: 100%;
+    height: 2px;
+    left: 0;
+}
+
+.wceazy_order_cancel_page_title .page_title_part_left a {
+    margin-left: 100px;
+    color: #6E32C9;
+    margin-top: 15px;
+    font-size: 15px;
+    display: block;
+}
+.wceazy_order_cancel_page_title .page_title_part_right button.wceazy_order_cancel_back_to_dashboard_btn {
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    color: #FF521D;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .3s;
+    background: #F6F5FA url("../../img/wceazy_back_to_dashboard.svg") no-repeat;
+    background-size: 14px;
+    background-position-x: 10px;
+    background-position-y: center;
+    padding: 5px 10px 5px 30px;
+}
+
+
+
+.wceazy_order_cancel_container{
+    padding: 50px 50px;
+}
+
+
+
+.wceazy_order_cancel_table_top_actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+.wceazy_order_cancel_table_top_actions input[type=color],
+.wceazy_order_cancel_table_top_actions input[type=date],
+.wceazy_order_cancel_table_top_actions input[type=datetime-local],
+.wceazy_order_cancel_table_top_actions input[type=datetime],
+.wceazy_order_cancel_table_top_actions input[type=email],
+.wceazy_order_cancel_table_top_actions input[type=month],
+.wceazy_order_cancel_table_top_actions input[type=number],
+.wceazy_order_cancel_table_top_actions input[type=password],
+.wceazy_order_cancel_table_top_actions input[type=search],
+.wceazy_order_cancel_table_top_actions input[type=tel],
+.wceazy_order_cancel_table_top_actions input[type=text],
+.wceazy_order_cancel_table_top_actions input[type=time],
+.wceazy_order_cancel_table_top_actions input[type=url],
+.wceazy_order_cancel_table_top_actions input[type=week],
+.wceazy_order_cancel_table_top_actions select,
+.wceazy_order_cancel_table_top_actions textarea {
+    box-shadow: 0 0 0 transparent;
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: 1px solid #BDCEF1;
+    background-color: #fff;
+    color: #2c3338;
+}
+.wceazy_order_cancel_table_top_actions select{
+    padding: 7px 15px;
+    border-color: #BDCEF1;
+}
+.wceazy_order_cancel_table_top_actions input[type=button] {
+    font-size: 14px;
+    padding: 11px 20px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #BDCEF1;
+    background: #f6f7f7;
+    color: #2271b1;
+    -webkit-appearance: none;
+    margin: 0 15px 0 5px;
+}
+.wceazy_order_cancel_table_top_actions input[type=button][disabled] {
+    color: #a7aaad!important;
+    border-color: #dcdcde!important;
+    background: #f6f7f7!important;
+}
+
+
+
+.wceazy_order_cancel_table_top_actions .wceazy_order_cancel_top_actions_part_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wceazy_order_cancel_table_top_actions .wceazy_order_cancel_top_actions_part_left p{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+.wceazy_order_cancel_table {
+    background: #fff;
+    border: 1px solid #BDCEF1 !important;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    border-radius: 5px;
+    margin-bottom: 30px !important;
+}
+.wceazy_order_cancel_table thead th{
+    font-weight: 500 !important;
+    font-size: 14px;
+    text-align: center;
+}
+.wceazy_order_cancel_table td{
+    font-size: 14px;
+    line-height: unset;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 10px !important;
+}
+.wceazy_order_cancel_table tbody th.check-column{
+    padding: 20px 0 0 3px;
+}
+.wceazy_order_cancel_table thead td,
+.wceazy_order_cancel_table thead th {
+    text-align: center !important;
+    border-bottom: 1px solid #BDCEF1 !important;
+}
+.wceazy_order_cancel_table tbody tr {
+    background-color: #ffffff;
+}
+.wceazy_order_cancel_table>tbody>:nth-child(odd){
+    background-color: #a7bce54d;
+}
+.wceazy_order_cancel_container .dataTables_wrapper .dataTables_filter{
+    display: none;
+}
+.wceazy_order_cancel_container .dataTables_wrapper .dataTables_info{
+    display: none;
+}
+
+.wceazy_order_cancel_container .dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.wceazy_order_cancel_container .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.wceazy_order_cancel_container .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border: 1px solid #6E32C9 !important;
+    background: #6E32C9 !important;
+    border-radius: 5px !important;
+}
+
+.wceazy_order_cancel_table span.text-success{
+    color: #fff;
+    font-weight: 600;
+    background: green;
+    padding: 2px 15px;
+    border-radius: 3px;
+}
+.wceazy_order_cancel_table span.text-warning{
+    color: #fff;
+    font-weight: 600;
+    background: #FF4A62;
+    padding: 2px 15px;
+    border-radius: 3px;
+}
+.wceazy_order_cancel_table span.text-eazy-orange{
+    color: #fff;
+    font-weight: 600;
+    background: #FF521D;
+    padding: 2px 15px;
+    border-radius: 3px;
+}
+
+
+.wceazy_order_cancel_table .wceazy_order_cancel_table_row_action{
+    display: flex;
+    align-items: center;
+}
+
+.wceazy_order_cancel_table .wceazy_order_cancel_edit_apply_btn {
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #FFFFFF url(../../img/modules/order_cancel/edit_coupon.svg) no-repeat;
+    background-size: 11px;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 5px;
+    width: 34px;
+    height: 29px;
+    display: inline-block;
+}
+.wceazy_order_cancel_table .even .wceazy_order_cancel_edit_apply_btn {
+    background-color: #F2E4F9;
+}
+.wceazy_order_cancel_table .wceazy_order_cancel_add_to_auto_apply_btn {
+    border: 0;
+    outline: 0;
+    margin: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #FFFFFF url(../../img/modules/order_cancel/add_to_auto.svg) no-repeat;
+    background-size: 11px;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 5px;
+    width: 34px;
+    height: 29px;
+    display: inline-block;
+}
+.wceazy_order_cancel_table .even .wceazy_order_cancel_add_to_auto_apply_btn {
+    background-color: #EEF3FE;
+}
+
+.wceazy_order_cancel_table .wceazy_order_cancel_remove_from_auto_apply_btn {
+    border: 0;
+    outline: 0;
+    margin: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #FFFFFF url(../../img/modules/order_cancel/remove_from_auto.svg) no-repeat;
+    background-size: 11px;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 5px;
+    width: 34px;
+    height: 29px;
+    display: inline-block;
+}
+.wceazy_order_cancel_table .even .wceazy_order_cancel_remove_from_auto_apply_btn {
+    background-color: #FFDBDF;
+}
+
+
+
+
+
+
+
+.wceazy_order_cancel_popup {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #efeafede;
+    overflow: hidden;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.wceazy_order_cancel_popup.opened {
+    display: flex;
+}
+.wceazy_order_cancel_popup .wceazy_popup_inar{
+    position: absolute;
+    background: #FFFFFF;
+    padding: 80px 40px 80px 40px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 15%);
+}
+.wceazy_order_cancel_popup .wceazy_popup_inar .successes_message p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6E32C9;
+    margin: 0 0 40px 0;
+    line-height: 35px;
+    text-align: center;
+}
+.wceazy_order_cancel_popup .wceazy_popup_inar .wceazy-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.wceazy_order_cancel_popup .wceazy_popup_inar .wceazy-btn-danger {
+    border-radius: 5px;
+    padding: 14px 27px;
+    background: #FF521D;
+    border: 1px solid #FF521D;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.wceazy_order_cancel_popup .wceazy_popup_inar .wceazy-btn-success {
+    border-radius: 5px;
+    padding: 14px 27px;
+    background: #2e9504;
+    border: 1px solid #389905;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.wceazy_order_cancel_popup .wceazy_popup_inar .wceazy-btn-danger:hover,
+.wceazy_order_cancel_popup .wceazy_popup_inar .wceazy-btn-success:hover{
+    text-decoration: none;
+    background: #fff;
+    transition: 1s;
+    color: #333;
+}
+
+.wceazy_order_cancel_popup .wceazy_popup_inar .wceazy_close_popup {
+    border: 0;
+    outline: 0;
+    position: absolute;
+    top: -13px;
+    right: -21px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 15%);
+    background: #FFFFFF url(../../img/modules/order_cancel/popup_close.svg) no-repeat;
+    background-size: 11px;
+    background-position-x: center;
+    background-position-y: center;
+    width: 50px;
+    height: 50px;
+}
+.order_cancel_view_btn{
+    background-image: none !important;
+    margin-right: 5px !important;
+}
+.wceazy_order_cancel_table_row_action{
+    justify-content: center;
+}
+.wceazy_order_cancel_popup .wceazy-popup-content-title{
+    font-size: 24px !important;
+    margin: 0 !important;
+    margin-bottom: 5px !important;
+    color: #6E32C9 !important;
+    text-decoration: underline !important;
+    text-align: center !important;
+}
+.wceazy_order_cancel_popup .wceazy-popup-content{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #171717 !important;
+    line-height: 28px !important;
+    text-align: center !important;
+}
+.wceazy_decline_btn{
+    width: 80px !important;
+    background-position: 8px !important;
+    padding-left: 18px !important;
+}
+.wceazy_approve_btn{
+    width: 95px !important;
+    background: #FFFFFF url(../../img/modules/order_cancel/check_icon.svg) no-repeat !important;
+    background-position: 8px !important;
+    background-size: 15px !important;
+    padding-left: 18px !important;
+}
+.wceazy_oc_invoice_field_group{
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+.wceazy_oc_invoice_field_group .wceazy_pdf_invoice_textarea_field{
+    padding: 12px 8px;
+    background: #FFFFFF;
+    border: 1px solid #BDCEF1;
+    border-radius: 8px;
+    width: 100%;
+}
+.wceazy_order_cancel_container{
+    padding-top: 5px;
+}
+.wceazy_order_cancel_filter_discount_type{
+    width: 150px;
+}

@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcEazy Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 11:44+0000\n"
+"PO-Revision-Date: 2024-01-31 02:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: বাংলা\n"
+"Language: bn_BD\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2\n"
+"X-Domain: wceazy"
+
+#: modules/product_filter/template.php:61
+msgid "Filter By Category"
+msgstr "বিভাগ দ্বারা ফিল্টার"
+
+#: modules/product_filter/template.php:34
+msgid "Filter By Price"
+msgstr "মূল্য দ্বারা ফিল্টার"
+
+#: modules/product_filter/template.php:48
+msgid "Filter By Rating"
+msgstr "দ্বারা ফিল্টার রেটিং"
+
+#: modules/product_filter/template.php:73
+msgid "Filter By Stock"
+msgstr "দ্বারা ফিল্টার স্টক"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wceazy.com"
+msgstr ""
+
+#: modules/product_filter/template.php:74
+msgid "In Stock"
+msgstr "স্টক মধ্যে কিছু অপশন"
+
+#: modules/product_filter/template.php:75
+msgid "Out of Stock"
+msgstr "স্টক আউট"
+
+#: modules/product_filter/template.php:25
+#: modules/product_filter/template.php:28
+msgid "Search Product"
+msgstr "অনুসন্ধান পণ্য"
+
+#. Author of the plugin
+msgid "wcEazy"
+msgstr "wcEazy"
+
+#. Name of the plugin
+msgid "wcEazy Pro"
+msgstr "wcEazy প্রো"
+
+#. Description of the plugin
+msgid ""
+"wcEazy provides multiple WooCommerce extensions in a single package you'll "
+"ever require."
+msgstr ""
+"wcEazy উপলব্ধ একাধিক ওয়ার্ডপ্রেস এক্সটেনশন একটি প্যাকেজের মধ্যে আপনি কি "
+"কখনো প্রয়োজন."

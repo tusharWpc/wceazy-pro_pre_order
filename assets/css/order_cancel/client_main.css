@@ -1,0 +1,127 @@
+.wceazy_cancel__order{
+    background: transparent !important;
+    color: red !important;
+    text-decoration: underline !important;
+}
+.wceazy-order-cancellation-popup{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 250;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 100px;
+    border-radius: 10px;
+    display: none;
+}
+
+.wceazy_ca_popup_open{
+    display: block !important;
+}
+
+.wceazy-order-cancellation-popup-inner{
+    background: #F6F5FA;
+    width: 90%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 900;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+}
+.wceazy-order-cancellation-popup-inner-box{
+    position: relative;
+    padding: 50px;
+}
+.wceazy-order-cancellation-title{
+    color: #3a3a3a;
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    
+}
+.order__title{
+    color: #3a3a3a;
+    font-size: 18px;
+    font-weight: 700;
+}
+.wceazy_cancellation_reason_label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 5px;
+}
+#wceazy_cancellation_details{
+    background: #fff;
+    border-radius: 4px;
+}
+.wceazy-cancellation-actions{
+    margin-top: 20px;
+}
+.wceazy_cancellation_submit,
+.wceazy_cancellation_close_popup{
+    cursor: pointer;
+    background: #6E32C9;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px !important;
+}
+.wceazy_cancellation_close_popup{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    padding: 0px 8px;
+}
+.wceazy_cancellation_close_popup:hover{
+    background: #510bbb;
+}
+.wceazy_cancellation_submit{
+    background: #C73F44;
+}
+.wceazy_cancellation_submit:hover{
+    background: #f71b22;
+}
+
+.cancellation_details_warning{
+    display: none;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.show_cancellation_details_warning{
+    display: block;
+}
+.wceazy-order-cancel-primary{
+    background: #6E32C9;
+}
+.cancellation_request_success{
+    display: none;
+    color: green;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #ddd;
+    padding: 15px 25px;
+    border-radius: 4px;
+}
+.text-eazy-orange{
+    background: #FF521D;
+}
+.cancellation_policy{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.wceazy_cancellation_submit{
+    color: var(--wceazy_cancellation_submit_color) !important;
+    background-color: var(--wceazy_cancellation_submit_bg_color) !important;;
+}

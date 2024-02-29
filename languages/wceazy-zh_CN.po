@@ -1,0 +1,3323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcEazy Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 02:47+0000\n"
+"PO-Revision-Date: 2024-01-31 02:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2\n"
+"X-Domain: wceazy"
+
+#: backend/templates/views/one_click_checkout/settings.php:254
+msgid "  After add to cart form"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:336
+msgid "  Before add to cart button "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:256
+#: backend/templates/views/one_click_checkout/settings.php:337
+msgid " After add to cart button"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:398
+msgid " Background Color"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:255
+msgid " Before add to cart button "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:253
+msgid " Before add to cart form"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:503
+msgid " Billing Address 1 "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:504
+msgid " Billing Address 2 "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:506
+msgid " Billing City "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:509
+msgid " Billing Company "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:505
+msgid " Billing Country "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:511
+msgid " Billing Email "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:501
+msgid " Billing First Name "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:502
+msgid " Billing Last Name "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:510
+msgid " Billing Phone "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:508
+msgid " Billing Postcode "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:507
+msgid " Billing State "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:447
+msgid " Border Radius"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:450
+msgid " Buy now button border radius (PX)"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:384
+msgid " Buy Now Button design"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:312
+#: backend/templates/views/one_click_checkout/settings.php:315
+msgid " Buy now button label"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:278
+#: backend/templates/views/one_click_checkout/settings.php:359
+msgid " Buy now button margin bottom"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:281
+#: backend/templates/views/one_click_checkout/settings.php:362
+msgid " Buy now button margin bottom (PX)."
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:286
+#: backend/templates/views/one_click_checkout/settings.php:367
+msgid " Buy now button margin left"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:289
+#: backend/templates/views/one_click_checkout/settings.php:370
+msgid " Buy now button margin left (PX)."
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:294
+#: backend/templates/views/one_click_checkout/settings.php:375
+msgid " Buy now button margin right"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:297
+#: backend/templates/views/one_click_checkout/settings.php:378
+msgid " Buy now button margin right (PX)."
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:270
+#: backend/templates/views/one_click_checkout/settings.php:351
+msgid " Buy now button margin top"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:273
+#: backend/templates/views/one_click_checkout/settings.php:354
+msgid " Buy now button margin top (PX)."
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:301
+msgid " Buy Now Button on the Archive Page"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:442
+msgid " Buy now button padding left & right (PX)"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:434
+msgid " Buy now button padding top & bottom (PX)"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:262
+#: backend/templates/views/one_click_checkout/settings.php:343
+msgid " Buy now button width"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:346
+msgid " Buy now button width on product archive page (PX)."
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:265
+msgid " Buy now button width on product page (PX)."
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:326
+msgid " Cancelled Order"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:299
+msgid " Choose the order status that you want to disable the invoice."
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:347
+msgid " Customer Invoice"
+msgstr ""
+
+#: backend/templates/views/floating_cart/settings.php:451
+msgid " Customize the empty cart message for the cart."
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:272
+msgid " Direct Download"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/shipping_label.php:62
+msgid " Email Address"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:304
+msgid " Enable Buy Now Button "
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:329
+msgid " Failed Order "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:387
+msgid " Font Color"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:420
+msgid " Hover Background Color"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:409
+msgid " Hover Font Color"
+msgstr ""
+
+#: backend/templates/views/floating_cart/settings.php:544
+msgid " Left "
+msgstr ""
+
+#: backend/templates/views/floating_cart/settings.php:182
+msgid " Number Of Products"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:439
+msgid " Padding Left-Right"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:431
+msgid " Padding Top-Bottom"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/shipping_label.php:65
+msgid " Phone Number"
+msgstr ""
+
+#: backend/templates/views/floating_cart/settings.php:197
+#: backend/templates/views/one_click_checkout/settings.php:323
+#: backend/templates/views/one_click_checkout/settings.php:335
+#: backend/templates/views/pdf_invoice/settings.php:320
+msgid " Please select"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:332
+msgid " Position Of the Button"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:320
+msgid " Redirect to page"
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:341
+msgid " Refunded Order"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:391
+#: backend/templates/views/one_click_checkout/settings.php:402
+#: backend/templates/views/one_click_checkout/settings.php:413
+#: backend/templates/views/one_click_checkout/settings.php:424
+msgid " Select Color"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:404
+msgid " Set button background color"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:426
+msgid " Set button background color on hover"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:393
+msgid " Set button font color"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:415
+msgid " Set button font color on hover"
+msgstr ""
+
+#: backend/templates/views/modules.php:114
+#: backend/templates/views/modules.php:258
+msgid " Settings"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:524
+msgid " Shipping Address 1 "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:525
+msgid " Shipping Address 2 "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:527
+msgid " Shipping City "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:530
+msgid " Shipping Company "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:526
+msgid " Shipping Country "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:522
+msgid " Shipping First Name "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:523
+msgid " Shipping Last Name "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:529
+msgid " Shipping Postcode "
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:528
+msgid " Shipping State "
+msgstr ""
+
+#: backend/templates/views/product_sticky_bar/settings.php:226
+msgid " Show/Hide the variable product selection option on the sticky bar."
+msgstr ""
+
+#: backend/templates/views/floating_cart/settings.php:185
+msgid " Total Number Of Items"
+msgstr ""
+
+#: backend/templates/views/one_click_checkout/settings.php:307
+msgid " Turn on if you want Buy Now button on product archive page."
+msgstr ""
+
+#: backend/templates/views/product_filter/settings.php:239
+msgid "\"Add to Cart\" Button Text"
+msgstr "\"添加到车\"键文本"
+
+#: backend/templates/views/product_filter/settings.php:623
+msgid "\"And Up\" Font Color"
+msgstr "\"和\"字体的彩色"
+
+#: backend/templates/views/product_filter/settings.php:598
+msgid "\"And Up\" Text"
+msgstr "\"和\"文本"
+
+#: backend/templates/views/shipping_bar/settings.php:221
+msgid ""
+"\"Empty Cart in Shipping Zone: Add items to qualify for Free Shipping "
+"({minimum_order}).\""
+msgstr ""
+
+#: backend/templates/views/product_filter/settings.php:832
+msgid "\"In Stock\" Text"
+msgstr "\"股票\"的文字"
+
+#: backend/templates/views/product_filter/settings.php:283
+msgid "\"Next Page\" Button Text"
+msgstr "\"下一页\"文本按钮"
+
+#: backend/templates/views/product_filter/settings.php:843
+msgid "\"Out of Stock\" Text"
+msgstr "\"股票\"的文字"
+
+#: backend/templates/views/product_filter/settings.php:272
+msgid "\"Previous Page\" Button Text"
+msgstr "\"上一页\"文本按钮"
+
+#: backend/templates/views/product_filter/settings.php:250
+msgid "\"Select Options\" Button Text"
+msgstr "\"选择\"按钮文本"
+
+#: backend/templates/views/product_filter/settings.php:261
+msgid "\"Stock Out\" Button Text"
+msgstr "\"股票\"按钮文本"
+
+#: frontend/templates/views/floating_cart/view.php:290
+#: frontend/templates/views/floating_cart/view.php:294
+msgid "$0.00"
+msgstr "$0.00"
+
+#: frontend/templates/views/floating_cart/view.php:286
+msgid "$100"
+msgstr "$100"
+
+#: frontend/templates/views/floating_cart/view.php:298
+msgid "$100.00"
+msgstr "$100.00"
+
+#: backend/templates/views/shipping_bar/settings.php:218
+#: backend/templates/views/shipping_bar/settings.php:226
+#: backend/templates/views/shipping_bar/settings.php:234
+#: backend/templates/views/shipping_bar/settings.php:251
+#: backend/templates/views/shipping_bar/settings.php:259
+#: backend/templates/views/shipping_bar/settings.php:267
+msgid "(Pro)"
+msgstr "(临)"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:35
+#: backend/templates/views/order_cancel/settings.php:77
+#: backend/templates/views/url_coupon/settings.php:29
+msgid "10"
+msgstr "10"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:44
+#: backend/templates/views/order_cancel/settings.php:86
+#: backend/templates/views/url_coupon/settings.php:38
+msgid "100"
+msgstr "100"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:36
+#: backend/templates/views/order_cancel/settings.php:78
+#: backend/templates/views/url_coupon/settings.php:30
+msgid "20"
+msgstr "20"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:37
+#: backend/templates/views/order_cancel/settings.php:79
+#: backend/templates/views/url_coupon/settings.php:31
+msgid "30"
+msgstr "30"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:38
+#: backend/templates/views/order_cancel/settings.php:80
+#: backend/templates/views/url_coupon/settings.php:32
+msgid "40"
+msgstr "40"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:39
+#: backend/templates/views/order_cancel/settings.php:81
+#: backend/templates/views/url_coupon/settings.php:33
+msgid "50"
+msgstr "50"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:40
+#: backend/templates/views/order_cancel/settings.php:82
+#: backend/templates/views/url_coupon/settings.php:34
+msgid "60"
+msgstr "60"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:41
+#: backend/templates/views/order_cancel/settings.php:83
+#: backend/templates/views/url_coupon/settings.php:35
+msgid "70"
+msgstr "70"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:42
+#: backend/templates/views/order_cancel/settings.php:84
+#: backend/templates/views/url_coupon/settings.php:36
+msgid "80"
+msgstr "80"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:43
+#: backend/templates/views/order_cancel/settings.php:85
+#: backend/templates/views/url_coupon/settings.php:37
+msgid "90"
+msgstr "90"
+
+#: backend/templates/views/address_book/settings.php:138
+msgid "Account Page"
+msgstr "帐户页"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:79
+#: backend/templates/views/order_cancel/settings.php:122
+#: backend/templates/views/url_coupon/settings.php:64
+msgid "Action"
+msgstr "动作"
+
+#: backend/templates/views/product_filter/settings.php:294
+msgid "Action Button Background Color"
+msgstr "行动按钮的背景颜色"
+
+#: backend/templates/views/product_filter/settings.php:308
+msgid "Action Button Font Color"
+msgstr "行动按钮字体的彩色"
+
+#: backend/templates/license.php:37
+msgid "Activate the product using your License Code."
+msgstr "激活的产品使用你的授权码。"
+
+#: backend/templates/views/modules.php:24
+msgid "Active"
+msgstr "活性"
+
+#: backend/templates/license.php:28
+msgid "Active License"
+msgstr "活动的许可证"
+
+#: backend/templates/views/address_book/settings.php:165
+msgid "Add Billing Address Button Text"
+msgstr "添加帐单的地址按钮文本"
+
+#: backend/templates/views/address_book/settings.php:229
+msgid "Add Button Background Color"
+msgstr "添加按钮的背景颜色"
+
+#: backend/templates/views/address_book/settings.php:251
+msgid "Add Button Background Hover Color"
+msgstr "添加按钮的背景悬浮的颜色"
+
+#: backend/templates/views/address_book/settings.php:274
+msgid "Add Button Border Hover Color"
+msgstr "添加按钮边界悬浮的颜色"
+
+#: backend/templates/views/address_book/settings.php:240
+msgid "Add Button Text Color"
+msgstr "添加文字颜色的按钮"
+
+#: backend/templates/views/address_book/settings.php:262
+msgid "Add Button Text Hover Color"
+msgstr "添加的案文悬浮的颜色"
+
+#: backend/templates/views/bogo_deal/settings.php:19
+msgid "Add Rule"
+msgstr "添加规则"
+
+#: backend/templates/views/address_book/settings.php:174
+msgid "Add Shipping Address Button Text"
+msgstr "增加运送地址的按钮上的文字"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:48
+msgid "Add to auto apply"
+msgstr "增加来自动适用"
+
+#: backend/templates/views/one_click_checkout/settings.php:89
+msgid "Add To Cart"
+msgstr "加入购物车"
+
+#: backend/templates/views/product_filter/settings.php:14
+msgid "Add to Cart"
+msgstr "加入购物车"
+
+#: backend/templates/views/one_click_checkout/settings.php:164
+msgid "Add to Cart Button Settings"
+msgstr "添加到车设置按钮"
+
+#: backend/templates/views/one_click_checkout/settings.php:187
+msgid "Add to cart button text"
+msgstr "添加到车按钮文本"
+
+#: backend/templates/views/modules.php:230
+#: backend/templates/views/address_book/settings.php:54
+msgid "Address Book"
+msgstr "地址簿"
+
+#: backend/templates/views/address_book/settings.php:84
+msgid "Address Book on Account Page"
+msgstr "地址簿上的帐户页"
+
+#: backend/templates/views/address_book/settings.php:287
+msgid "Address Card Background Color"
+msgstr "地址卡背景颜色"
+
+#: backend/templates/views/address_book/settings.php:298
+msgid "Address Card Border Color"
+msgstr "地址卡边境的颜色"
+
+#: backend/templates/views/address_book/settings.php:320
+msgid "Address Card Footer Background Color"
+msgstr "地址卡脚注的背景的颜色"
+
+#: backend/templates/views/address_book/settings.php:332
+msgid "Address Card Link Text Color"
+msgstr "地址的链接文本色"
+
+#: backend/templates/views/address_book/settings.php:207
+msgid "Address Delete Link Text"
+msgstr "地址的链接文本中删除"
+
+#: backend/templates/views/address_book/settings.php:199
+msgid "Address Edit Link Text"
+msgstr "地址的链接文本编辑"
+
+#: backend/templates/views/address_book/settings.php:131
+msgid "Address Field Label"
+msgstr "地址字的标签"
+
+#: backend/templates/views/address_book/settings.php:102
+msgid "Address Field on Checkout Page"
+msgstr "地址场上结账页"
+
+#: backend/templates/views/pdf_invoice/settings.php:200
+msgid "Address Line 1"
+msgstr "地址1号线"
+
+#: backend/templates/views/pdf_invoice/settings.php:209
+msgid "Address Line 2"
+msgstr "地址2号线"
+
+#: backend/templates/views/address_book/settings.php:215
+msgid "Address Make Primary Link Text"
+msgstr "地址使主要的链接文本"
+
+#: backend/templates/views/address_book/settings.php:309
+msgid "Address Text Color"
+msgstr "地址文本色"
+
+#: backend/templates/views/one_click_checkout/settings.php:120
+msgid ""
+"After clicking the add to cart button, it will automatically redirect to the "
+"checkout page."
+msgstr "点击之后添加到车按钮，它会自动重新定向到结帐页。"
+
+#: backend/templates/views/one_click_checkout/settings.php:169
+msgid "Ajax add to cart on single product"
+msgstr "阿贾克斯添加到车上的单个产品"
+
+#: backend/templates/views/modules.php:23
+msgid "All"
+msgstr "所有"
+
+#: backend/templates/views/floating_cart/settings.php:298
+msgid "Allow Deleting Item From Cart"
+msgstr "允许删除项目从车"
+
+#: backend/templates/views/shipping_bar/settings.php:259
+msgid "Allow Disappear Time"
+msgstr "允许消失的时间"
+
+#: backend/templates/views/coupon_generator/settings.php:85
+msgid "Allow free shipping"
+msgstr "允许免费送货"
+
+#: backend/templates/views/floating_cart/settings.php:309
+msgid "Allow Quantity Update"
+msgstr "允许数量更新"
+
+#: backend/templates/views/coupon_generator/settings.php:169
+msgid "Allowed emails"
+msgstr "允许电子邮件"
+
+#: backend/templates/views/floating_cart/settings.php:824
+msgid "Always Hide"
+msgstr "总是隐藏"
+
+#: backend/templates/views/floating_cart/settings.php:821
+msgid "Always Show"
+msgstr "总是显示"
+
+#: backend/templates/views/order_cancel/settings.php:119
+msgid "Amount"
+msgstr "量"
+
+#: backend/templates/views/product_filter/settings.php:47
+msgid "And Up"
+msgstr "和上"
+
+#: frontend/templates/views/floating_cart/view.php:279
+msgid "Apply"
+msgstr "适用"
+
+#: backend/templates/views/order_cancel/settings.php:216
+msgid "Approve Request"
+msgstr "批准请求"
+
+#: backend/templates/views/order_cancel/settings.php:97
+msgid "Approved"
+msgstr "批准"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:93
+msgid "Are you sure?"
+msgstr "你确定吗？"
+
+#: backend/templates/views/order_cancel/settings.php:214
+#: backend/templates/views/order_cancel/settings.php:227
+msgid "Are you sure? "
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:317
+msgid "Attach to Email"
+msgstr "附加到电子邮件"
+
+#: backend/templates/views/modules.php:45
+#: backend/templates/views/auto_apply_coupon/settings.php:17
+msgid "Auto Apply Coupon"
+msgstr "自动适用优惠券"
+
+#: backend/templates/views/address_book/settings.php:58
+#: backend/templates/views/auto_apply_coupon/settings.php:21
+#: backend/templates/views/bogo_deal/settings.php:18
+#: backend/templates/views/coupon_generator/settings.php:18
+#: backend/templates/views/floating_cart/settings.php:110
+#: backend/templates/views/one_click_checkout/settings.php:79
+#: backend/templates/views/order_cancel/settings.php:48
+#: backend/templates/views/pdf_invoice/settings.php:79
+#: backend/templates/views/product_filter/settings.php:100
+#: backend/templates/views/product_sticky_bar/settings.php:66
+#: backend/templates/views/shipping_bar/settings.php:72
+#: backend/templates/views/url_coupon/settings.php:18
+msgid "Back to all Modules"
+msgstr "回到所有模块"
+
+#: backend/templates/views/product_sticky_bar/settings.php:89
+msgid "Bar Settings"
+msgstr "酒吧设置"
+
+#: backend/templates/views/product_sticky_bar/settings.php:266
+msgid "Bar Style"
+msgstr "酒吧的风格"
+
+#: backend/templates/views/floating_cart/settings.php:176
+msgid "Basket Count"
+msgstr "篮计数"
+
+#: backend/templates/views/floating_cart/settings.php:852
+msgid "Basket Count Background Color"
+msgstr "篮计数的背景的颜色"
+
+#: backend/templates/views/floating_cart/settings.php:834
+msgid "Basket Shape"
+msgstr "篮子的形状"
+
+#: backend/templates/views/floating_cart/settings.php:151
+#: backend/templates/views/floating_cart/settings.php:810
+msgid "Basket Style"
+msgstr "篮子里的风格"
+
+#: backend/templates/views/pdf_invoice/invoice.php:54
+msgid "Biller Email Address"
+msgstr "比勒的电子邮件地址"
+
+#: backend/templates/views/pdf_invoice/invoice.php:57
+msgid "Biller Phone Number"
+msgstr "比勒的电话号码"
+
+#: backend/templates/views/pdf_invoice/invoice.php:40
+#: backend/templates/views/pdf_invoice/invoice.php:48
+#: backend/templates/views/pdf_invoice/settings.php:516
+msgid "Billing Address"
+msgstr "帐单的地址"
+
+#: backend/templates/views/address_book/settings.php:182
+msgid "Billing Address Book Empty Message"
+msgstr "帐单的地址簿的空消息"
+
+#: backend/templates/views/address_book/settings.php:149
+msgid "Billing Address Book Headline"
+msgstr "帐单的地址簿的标题"
+
+#: backend/templates/views/address_book/settings.php:105
+msgid "Billing Address Field on Checkout?"
+msgstr "帐单的地址场上结账？"
+
+#: backend/templates/views/pdf_invoice/invoice.php:47
+msgid "Billing to Name"
+msgstr "帐单的名字"
+
+#: backend/templates/views/floating_cart/settings.php:247
+msgid "Body Settings"
+msgstr "体设置"
+
+#: backend/templates/views/modules.php:67
+#: backend/templates/views/bogo_deal/settings.php:14
+msgid "BOGO Deal"
+msgstr "博戈处理"
+
+#: backend/templates/views/product_sticky_bar/settings.php:136
+msgid "Bottom"
+msgstr "底部"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:47
+msgid "Bulk actions"
+msgstr "散行动"
+
+#: backend/templates/views/floating_cart/settings.php:578
+msgid "Button Background Color"
+msgstr "按钮的背景颜色"
+
+#: backend/templates/views/floating_cart/settings.php:619
+msgid "Button Border Color"
+msgstr "按钮边界的颜色"
+
+#: backend/templates/views/floating_cart/settings.php:633
+msgid "Button Border Hover Color"
+msgstr "按钮边界悬浮的颜色"
+
+#: backend/templates/views/floating_cart/settings.php:647
+msgid "Button Border Radius"
+msgstr "按钮边界半径"
+
+#: backend/templates/views/floating_cart/settings.php:564
+msgid "Button Font Color"
+msgstr "按钮的字体的彩色"
+
+#: backend/templates/views/floating_cart/settings.php:554
+msgid "Button Font Size"
+msgstr "字体大小按钮"
+
+#: backend/templates/views/floating_cart/settings.php:606
+msgid "Button Hover Background"
+msgstr "按钮悬停的背景"
+
+#: backend/templates/views/floating_cart/settings.php:592
+msgid "Button Hover Font Color"
+msgstr "按钮悬停字体的彩色"
+
+#: backend/templates/views/product_sticky_bar/settings.php:318
+msgid "Button Padding Top-Bottom"
+msgstr "按钮填补上下"
+
+#: backend/templates/views/one_click_checkout/settings.php:90
+msgid "Buy Now Button"
+msgstr "现在购买的按钮"
+
+#: backend/templates/views/one_click_checkout/settings.php:218
+msgid "Buy Now Button  Product Page"
+msgstr "现在购买的按钮产品页"
+
+#: backend/templates/views/one_click_checkout/settings.php:229
+#: backend/templates/views/one_click_checkout/settings.php:232
+msgid "Buy now button label"
+msgstr "现在购买的按钮标签"
+
+#: backend/templates/views/one_click_checkout/settings.php:216
+msgid "Buy Now Button Settings"
+msgstr "现在购买的设置按钮"
+
+#: backend/templates/views/order_cancel/settings.php:159
+msgid "Cacellation Policy Link"
+msgstr "Cacellation政策的链接"
+
+#: backend/templates/views/order_cancel/settings.php:184
+msgid "Cancel Button Background"
+msgstr "取消按钮的背景"
+
+#: backend/templates/views/order_cancel/settings.php:59
+msgid "Cancel Requests"
+msgstr "取消的请求"
+
+#: backend/templates/views/order_cancel/settings.php:213
+#: backend/templates/views/order_cancel/settings.php:226
+msgid "Cancellation Details"
+msgstr "消除的详细信息"
+
+#: backend/templates/views/order_cancel/settings.php:152
+msgid "Cancellation Policy"
+msgstr "取消政策"
+
+#: backend/templates/views/shipping_bar/settings.php:84
+msgid "Cart & Checkout"
+msgstr "车和结帐"
+
+#: backend/templates/views/shipping_bar/settings.php:176
+msgid "Cart & Checkout Page Settings"
+msgstr "车和结帐页设置"
+
+#: backend/templates/views/floating_cart/settings.php:130
+msgid "Cart Body"
+msgstr "车身体"
+
+#: backend/templates/views/floating_cart/settings.php:133
+msgid "Cart Footer"
+msgstr "车尾"
+
+#: backend/templates/views/floating_cart/settings.php:127
+msgid "Cart Header"
+msgstr "车头"
+
+#: backend/templates/views/floating_cart/settings.php:538
+msgid "Cart Open From"
+msgstr "车离开"
+
+#: backend/templates/views/shipping_bar/settings.php:179
+msgid "Cart Page"
+msgstr "车页"
+
+#: backend/templates/views/floating_cart/settings.php:528
+msgid "Cart Width(px)"
+msgstr "车宽度(px)"
+
+#: backend/templates/views/product_filter/settings.php:125
+msgid "Category Filter"
+msgstr "类别的过滤器"
+
+#: backend/templates/views/product_filter/settings.php:719
+msgid "Category Filter Settings"
+msgstr "类别的过滤设置"
+
+#: backend/templates/views/product_filter/settings.php:752
+msgid "Category Font Color"
+msgstr "类别物体的颜色"
+
+#: backend/templates/views/one_click_checkout/settings.php:178
+msgid "Change Add to cart button text"
+msgstr "变化添加到车按钮文本"
+
+#: backend/templates/views/order_cancel/settings.php:174
+msgid "Change the \"Cancel\" button color."
+msgstr "更改\"取消\"色彩。"
+
+#: backend/templates/views/coupon_generator/settings.php:42
+msgid "Characters"
+msgstr "字符"
+
+#: backend/templates/views/coupon_generator/settings.php:44
+msgid "Characters & Numbers"
+msgstr "字和号码"
+
+#: backend/templates/views/coupon_generator/settings.php:114
+msgid ""
+"Check this box if the coupon cannot be used in conjunction with other "
+"coupons."
+msgstr "检查这个框如券不能用与其他优惠券。"
+
+#: backend/templates/views/coupon_generator/settings.php:88
+msgid "Check this box if the coupon grants free shipping. A"
+msgstr "检查这个框如券资助的免费运输。 一个"
+
+#: backend/templates/views/coupon_generator/settings.php:121
+msgid ""
+"Check this box if the coupon should not apply to items on sale. Per-item "
+"coupons will only work if the item is not on sale. Per-cart coupons will "
+"only work if there are items in the cart that are not on sale."
+msgstr "检查这个框如券不应适用于项目上出售。 每个项目的优惠券只会的工作，如果该项目不是出售。 每车券，只会的工作，如果有的项目在购物车上没有销售。"
+
+#: backend/templates/views/product_filter/settings.php:798
+#: backend/templates/views/product_filter/settings.php:917
+msgid "Checkbox Checked Background Color"
+msgstr "框检查的背景的颜色"
+
+#: backend/templates/views/product_filter/settings.php:767
+#: backend/templates/views/product_filter/settings.php:885
+msgid "Checkbox Unchecked Background Color"
+msgstr "框未经检查的背景的颜色"
+
+#: backend/templates/views/product_filter/settings.php:783
+#: backend/templates/views/product_filter/settings.php:901
+msgid "Checkbox Unchecked Border Color"
+msgstr "框未经检查的边境颜色"
+
+#: backend/templates/views/one_click_checkout/settings.php:91
+msgid "Checkout"
+msgstr "结账"
+
+#: backend/templates/views/floating_cart/settings.php:437
+msgid "Checkout Button"
+msgstr "结账按钮"
+
+#: backend/templates/views/address_book/settings.php:128
+#: backend/templates/views/shipping_bar/settings.php:190
+msgid "Checkout Page"
+msgstr "结帐页"
+
+#: backend/templates/views/one_click_checkout/settings.php:459
+msgid "Checkout Settings"
+msgstr "结帐的设置"
+
+#: frontend/templates/views/product_sticky_bar/view.php:145
+msgid "Choose an option"
+msgstr "选择一个选项"
+
+#: backend/templates/views/coupon_generator/settings.php:80
+msgid "Choose the specific discount type."
+msgstr "选择的具体优惠的类型。"
+
+#: backend/templates/views/pdf_invoice/invoice.php:31
+#: backend/templates/views/pdf_invoice/invoice.php:49
+#: backend/templates/views/pdf_invoice/invoice.php:72
+#: backend/templates/views/pdf_invoice/settings.php:217
+#: backend/templates/views/pdf_invoice/shipping_label.php:38
+#: backend/templates/views/pdf_invoice/shipping_label.php:58
+msgid "City"
+msgstr "城市"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:71
+#: backend/templates/views/url_coupon/settings.php:56
+msgid "Code"
+msgstr "代码"
+
+#: backend/templates/views/pdf_invoice/settings.php:338
+msgid "Complete Order"
+msgstr "完成了"
+
+#: modules/order_cancel/template.php:56
+msgid "Confirm Cancel Order"
+msgstr "确认取消了"
+
+#: backend/templates/views/pdf_invoice/settings.php:251
+msgid "Contact Number"
+msgstr "联系号码"
+
+#: backend/templates/views/floating_cart/settings.php:148
+#: backend/templates/views/floating_cart/settings.php:726
+msgid "Content Style"
+msgstr "内容的风格"
+
+#: backend/templates/views/floating_cart/settings.php:417
+msgid "Continue Shopping Button"
+msgstr "继续购买的按钮"
+
+#: backend/templates/views/floating_cart/settings.php:488
+msgid "Continue Shopping Button Url"
+msgstr "继续购物按钮Url"
+
+#: backend/templates/views/pdf_invoice/invoice.php:32
+#: backend/templates/views/pdf_invoice/invoice.php:50
+#: backend/templates/views/pdf_invoice/invoice.php:73
+#: backend/templates/views/pdf_invoice/shipping_label.php:39
+#: backend/templates/views/pdf_invoice/shipping_label.php:59
+msgid "Country"
+msgstr "国"
+
+#: backend/templates/views/pdf_invoice/settings.php:236
+msgid "Country/State"
+msgstr "国家/国家"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:73
+#: backend/templates/views/url_coupon/settings.php:58
+msgid "Coupon Amount"
+msgstr "优惠券数量"
+
+#: backend/templates/views/coupon_generator/settings.php:94
+msgid "Coupon expiry date"
+msgstr "优惠券的到期日期"
+
+#: backend/templates/views/modules.php:87
+#: backend/templates/views/coupon_generator/settings.php:14
+msgid "Coupon Generator"
+msgstr "优惠券的发电机"
+
+#: backend/templates/views/coupon_generator/settings.php:30
+msgid "Coupon prefix"
+msgstr "优惠券的前缀"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:72
+#: backend/templates/views/coupon_generator/settings.php:39
+#: backend/templates/views/url_coupon/settings.php:57
+msgid "Coupon Type"
+msgstr "优惠券类型"
+
+#: backend/templates/views/coupon_generator/settings.php:49
+msgid "Coupons Character Length"
+msgstr "优惠券字符长"
+
+#: backend/templates/views/coupon_generator/settings.php:213
+msgid "Coupons Generated Successfully!"
+msgstr "优惠券产生的成功！"
+
+#: backend/templates/views/bogo_deal/settings.php:27
+msgid "Create First Rule"
+msgstr "创建第一个规则"
+
+#: backend/templates/views/floating_cart/settings.php:666
+msgid "Cross Icon Size(px)"
+msgstr "跨标尺寸(px)"
+
+#: backend/templates/views/pdf_invoice/invoice.php:165
+msgid "Custom Footer Text"
+msgstr "定义的脚注案文"
+
+#: backend/templates/views/pdf_invoice/settings.php:571
+msgid "Customer Note"
+msgstr "顾客注意"
+
+#: backend/templates/views/pdf_invoice/invoice.php:153
+msgid "Customer Note:"
+msgstr "顾客注意："
+
+#: backend/templates/views/order_cancel/settings.php:146
+msgid "Customers can only cancel orders in certain statuses."
+msgstr "客户仅可以取消订单定状态。"
+
+#: backend/templates/views/pdf_invoice/settings.php:101
+msgid "Customize Invoice"
+msgstr "自发票"
+
+#: backend/templates/views/shipping_bar/settings.php:213
+msgid "Customize Messages"
+msgstr "自消息"
+
+#: backend/templates/views/address_book/settings.php:226
+#: backend/templates/views/shipping_bar/settings.php:277
+msgid "Customize Styles"
+msgstr "定制的样式"
+
+#: backend/templates/views/floating_cart/settings.php:441
+msgid "Customize the checkout button text."
+msgstr "定义的结算按钮的文本。"
+
+#: backend/templates/views/floating_cart/settings.php:421
+msgid "Customize the continue shopping button text."
+msgstr "定继续购物键的文字。"
+
+#: backend/templates/views/floating_cart/settings.php:411
+msgid "Customize the heading title for the cart."
+msgstr "定制的标题为车。"
+
+#: backend/templates/views/floating_cart/settings.php:461
+msgid "Customize the subtotal text of the cart."
+msgstr "定制的小计文车。"
+
+#: backend/templates/views/floating_cart/settings.php:471
+msgid "Customize the total amount text of in the cart."
+msgstr "定制的总量文在车。"
+
+#: backend/templates/views/floating_cart/settings.php:431
+msgid "Customize the view cart button text."
+msgstr "定制车按钮的文本。"
+
+#: backend/templates/views/order_cancel/settings.php:118
+msgid "Date"
+msgstr "日期"
+
+#: backend/templates/views/pdf_invoice/settings.php:120
+msgid "Deactivate Invoice"
+msgstr "停用发票的"
+
+#: backend/templates/license.php:30
+msgid "Deactivate License"
+msgstr "停用许可证"
+
+#: backend/templates/views/pdf_invoice/settings.php:131
+msgid "Deactivate Shipping Label"
+msgstr "禁运签"
+
+#: backend/templates/views/order_cancel/settings.php:229
+msgid "Decline Request"
+msgstr "下降的请求"
+
+#: backend/templates/views/order_cancel/settings.php:99
+msgid "Declined"
+msgstr "拒绝"
+
+#: backend/templates/views/bogo_deal/settings.php:53
+msgid "Delete Rule"
+msgstr "删除规则"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:74
+#: backend/templates/views/url_coupon/settings.php:59
+msgid "Description"
+msgstr "描述"
+
+#: backend/templates/views/one_click_checkout/settings.php:101
+msgid "Disable Cart Page"
+msgstr "禁用车页"
+
+#: backend/templates/views/pdf_invoice/settings.php:289
+msgid "Disable for Order Status"
+msgstr "禁止为了状况"
+
+#: backend/templates/views/product_sticky_bar/settings.php:192
+msgid "Disable for Products"
+msgstr "禁用的产品"
+
+#: backend/templates/views/floating_cart/settings.php:239
+msgid "Disable if you don/t want to display. close icon on cart header."
+msgstr "禁止如果你不/t想要显示。 靠近图标上车头。"
+
+#: backend/templates/views/floating_cart/settings.php:369
+msgid "Disable if you don/t want to display. shipping amount on cart."
+msgstr "禁止如果你不/t想要显示。 运输数量上车。"
+
+#: backend/templates/views/floating_cart/settings.php:346
+msgid "Disable if you don/t want to display. subtotal on cart."
+msgstr "禁止如果你不/t想要显示。 小计上车。"
+
+#: backend/templates/views/product_filter/settings.php:709
+msgid "Disable if youdon/t want to display. the 0 star rating filter."
+msgstr "禁止如果你不/t想要显示。 0星评级过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:696
+msgid "Disable if youdon/t want to display. the 1 star rating filter."
+msgstr "禁止如果你不/t想要显示。 1星级过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:683
+msgid "Disable if youdon/t want to display. the 2 star rating filter."
+msgstr "禁止如果你不/t想要显示。 2星级的评价过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:670
+msgid "Disable if youdon/t want to display. the 3 star rating filter."
+msgstr "禁止如果你不/t想要显示。 3星级过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:657
+msgid "Disable if youdon/t want to display. the 4 star rating filter."
+msgstr "禁止如果你不/t想要显示。 4星级过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:644
+msgid "Disable if youdon/t want to display. the 5 star rating filter."
+msgstr "禁止如果你不/t想要显示。 5星级的评价过滤器。"
+
+#: backend/templates/views/one_click_checkout/settings.php:104
+msgid ""
+"Disable the cart page. It will automatically redirect to the checkout page."
+msgstr "禁止车页。 它会自动重新定向到结帐页。"
+
+#: backend/templates/views/pdf_invoice/invoice.php:114
+#: frontend/templates/views/floating_cart/view.php:289
+msgid "Discount"
+msgstr "折扣"
+
+#: backend/templates/views/bogo_deal/settings.php:68
+#: backend/templates/views/bogo_deal/settings.php:69
+msgid "Discount Amount"
+msgstr "折扣量"
+
+#: backend/templates/views/bogo_deal/settings.php:60
+msgid "Discount Type"
+msgstr "折扣类型"
+
+#: backend/templates/views/coupon_generator/settings.php:73
+msgid "Discount type"
+msgstr "折扣类型"
+
+#: backend/templates/views/shipping_bar/settings.php:113
+msgid "Display in Desktop"
+msgstr "显示在桌面"
+
+#: backend/templates/views/shipping_bar/settings.php:121
+msgid "Display in Mobile"
+msgstr "显示在移动"
+
+#: backend/class-wceazy-admin.php:142
+msgid "Docs"
+msgstr "文档"
+
+#: backend/templates/views/pdf_invoice/settings.php:419
+msgid "Document Title"
+msgstr "文件标题"
+
+#: backend/templates/views/modules.php:54
+#: backend/templates/views/modules.php:76
+#: backend/templates/views/modules.php:96
+#: backend/templates/views/modules.php:116
+#: backend/templates/views/modules.php:136
+#: backend/templates/views/modules.php:156
+#: backend/templates/views/modules.php:176
+#: backend/templates/views/modules.php:196
+#: backend/templates/views/modules.php:216
+#: backend/templates/views/modules.php:239
+#: backend/templates/views/modules.php:260
+#: backend/templates/views/modules.php:279
+#: backend/templates/views/address_book/settings.php:55
+#: backend/templates/views/auto_apply_coupon/settings.php:18
+#: backend/templates/views/bogo_deal/settings.php:15
+#: backend/templates/views/coupon_generator/settings.php:15
+#: backend/templates/views/floating_cart/settings.php:106
+#: backend/templates/views/one_click_checkout/settings.php:76
+#: backend/templates/views/order_cancel/settings.php:44
+#: backend/templates/views/pdf_invoice/settings.php:74
+#: backend/templates/views/product_filter/settings.php:94
+#: backend/templates/views/product_sticky_bar/settings.php:62
+#: backend/templates/views/shipping_bar/settings.php:69
+#: backend/templates/views/url_coupon/settings.php:15
+msgid "Documentation"
+msgstr "文档"
+
+#: backend/templates/views/shipping_bar/settings.php:90
+msgid "Effect"
+msgstr "效果"
+
+#: backend/templates/views/shipping_bar/settings.php:247
+msgid "Effect Settings"
+msgstr "效果设置"
+
+#: backend/templates/views/pdf_invoice/settings.php:538
+#: backend/templates/views/pdf_invoice/settings.php:687
+#: backend/templates/views/pdf_invoice/settings.php:699
+msgid "Email"
+msgstr "电子邮件"
+
+#: backend/templates/views/floating_cart/settings.php:447
+msgid "Empty Cart Message"
+msgstr "空的车的消息"
+
+#: backend/templates/views/floating_cart/settings.php:165
+msgid "Enable Auto Open Cart"
+msgstr "启用自动打开车"
+
+#: backend/templates/views/floating_cart/settings.php:815
+msgid "Enable Basket"
+msgstr "启用篮"
+
+#: backend/templates/views/address_book/settings.php:87
+msgid "Enable Billing Address Book"
+msgstr "启用帐单的地址簿"
+
+#: backend/templates/views/one_click_checkout/settings.php:221
+msgid "Enable Buy Now Button"
+msgstr "启用现在购买的按钮"
+
+#: backend/templates/views/shipping_bar/settings.php:284
+msgid "Enable Progress Bar"
+msgstr "使进展吧"
+
+#: backend/templates/views/one_click_checkout/settings.php:117
+msgid "Enable Redirect on Add to Cart"
+msgstr "启用重新定向于加入到购物车"
+
+#: backend/templates/views/address_book/settings.php:95
+msgid "Enable Shipping Address Book"
+msgstr "启运地址簿"
+
+#: backend/templates/views/shipping_bar/settings.php:105
+msgid "Enable Shipping Bar"
+msgstr "启航运吧"
+
+#: backend/templates/views/one_click_checkout/settings.php:109
+msgid "Enable Single Page Checkout"
+msgstr "启用单页结帐"
+
+#: backend/templates/views/one_click_checkout/settings.php:112
+msgid "Enable single page checkout ?"
+msgstr "启用单页结账？"
+
+#: backend/templates/views/product_sticky_bar/settings.php:95
+msgid "Enable Sticky Bar"
+msgstr "启用粘吧"
+
+#: backend/templates/views/one_click_checkout/settings.php:475
+msgid "Enable to remove “Coupon Form” from the checkout page."
+msgstr "使删除\"优惠券的形式\"自结帐页。"
+
+#: backend/templates/views/one_click_checkout/settings.php:467
+msgid "Enable to remove “order comment” from the checkout page."
+msgstr "使删除\"了的评论\"从结帐页。"
+
+#: backend/templates/views/one_click_checkout/settings.php:483
+msgid "Enable to remove “Policy Text” from the checkout page."
+msgstr "使删除\"的政策文本\"从结帐页。"
+
+#: backend/templates/views/one_click_checkout/settings.php:491
+msgid "Enable to remove “Terms & Conditions” from the checkout page."
+msgstr "使删除\"条款和条件\"，从结帐页。"
+
+#: backend/templates/views/pdf_invoice/settings.php:364
+msgid "Enable to show the order number as the invoice number."
+msgstr "启用以显示了数字为发票编号。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:209
+msgid "Enable Update Product Qty"
+msgstr "启用新的产品数量"
+
+#: backend/templates/views/product_sticky_bar/settings.php:221
+msgid "Enable Variable Product"
+msgstr "启用的变量的产品"
+
+#: backend/templates/views/pdf_invoice/settings.php:305
+msgid "Enable VAT & SSN on Checkout"
+msgstr "启用增值税&SSN在结帐"
+
+#: backend/templates/views/product_filter/settings.php:186
+msgid "Enable/Disable the category filter on the sidebar"
+msgstr "启用/停用类别的过滤器上的边栏"
+
+#: backend/templates/views/floating_cart/settings.php:292
+#: backend/templates/views/floating_cart/settings.php:303
+msgid "Enable/disable the deleting item option on the cart menu."
+msgstr "启用/停用删除项目的选择上车菜单。"
+
+#: backend/templates/views/pdf_invoice/settings.php:125
+msgid "Enable/Disable the invoice on the PDF document."
+msgstr "启用/停用的发票上的PDF格式文档。"
+
+#: backend/templates/views/product_filter/settings.php:162
+msgid "Enable/Disable the price filter on the sidebar."
+msgstr "启用/停用价格过滤器上的边栏。"
+
+#: backend/templates/views/product_filter/settings.php:174
+msgid "Enable/Disable the rating filter on the sidebar."
+msgstr "启用/停用评级过滤器上的边栏。"
+
+#: backend/templates/views/product_filter/settings.php:151
+msgid "Enable/Disable the search filter on the sidebar."
+msgstr "启用/停用的搜寻过滤器上的边栏。"
+
+#: backend/templates/views/product_filter/settings.php:198
+msgid "Enable/Disable the stock status filter on the sidebar.  "
+msgstr ""
+
+#: backend/templates/views/shipping_bar/settings.php:206
+msgid "Enter cart & checkout page free shipping progress bar headline text."
+msgstr "客车和结帐页免费运输的进展栏标题的文字。"
+
+#: backend/templates/views/pdf_invoice/settings.php:183
+msgid "Enter invoice footer info"
+msgstr "该发票页脚的信息"
+
+#: backend/templates/views/coupon_generator/settings.php:158
+msgid "Exclude categories"
+msgstr "排除类别"
+
+#: backend/templates/views/shipping_bar/settings.php:144
+msgid "Exclude Pages"
+msgstr "排除网页"
+
+#: backend/templates/views/shipping_bar/settings.php:157
+msgid "Exclude Products"
+msgstr "排除产品"
+
+#: backend/templates/views/coupon_generator/settings.php:136
+msgid "Exclude products"
+msgstr "排除产品"
+
+#: backend/templates/views/coupon_generator/settings.php:118
+msgid "Exclude sale items"
+msgstr "排除的销售项目"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:77
+#: backend/templates/views/url_coupon/settings.php:62
+msgid "Expiry Date"
+msgstr "到期日期"
+
+#: backend/templates/views/coupon_generator/settings.php:214
+msgid "Export as CSV"
+msgstr "出口为CSV"
+
+#: backend/templates/views/pdf_invoice/invoice.php:115
+msgid "Fee"
+msgstr "费"
+
+#: modules/product_filter/template.php:61
+#: backend/templates/views/product_filter/settings.php:57
+msgid "Filter By Category"
+msgstr "过滤器的类别"
+
+#: modules/product_filter/template.php:34
+#: backend/templates/views/product_filter/settings.php:32
+msgid "Filter By Price"
+msgstr "过滤器的价格"
+
+#: modules/product_filter/template.php:48
+#: backend/templates/views/product_filter/settings.php:43
+msgid "Filter By Rating"
+msgstr "过滤的评价"
+
+#: modules/product_filter/template.php:73
+#: backend/templates/views/product_filter/settings.php:64
+msgid "Filter By Stock"
+msgstr "过滤器的股票"
+
+#: backend/templates/views/product_filter/settings.php:204
+msgid "Filter Sidebar Position"
+msgstr "滤波器栏的位置"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:55
+#: backend/templates/views/coupon_generator/settings.php:77
+#: backend/templates/views/url_coupon/settings.php:44
+msgid "Fixed cart discount"
+msgstr "固定车的折扣"
+
+#: backend/templates/views/bogo_deal/settings.php:64
+msgid "Fixed discount"
+msgstr "固定折扣"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:56
+#: backend/templates/views/coupon_generator/settings.php:78
+#: backend/templates/views/url_coupon/settings.php:45
+msgid "Fixed product discount"
+msgstr "固定的产品的折扣"
+
+#: backend/templates/views/modules.php:167
+#: backend/templates/views/floating_cart/settings.php:104
+msgid "Floating Cart"
+msgstr "浮车"
+
+#: backend/templates/views/pdf_invoice/settings.php:582
+msgid "Footer"
+msgstr "脚"
+
+#: backend/templates/views/pdf_invoice/settings.php:179
+msgid "Footer Info"
+msgstr "脚的信息"
+
+#: backend/templates/views/floating_cart/settings.php:330
+msgid "Footer Position Fixed"
+msgstr "脚位置的固定"
+
+#: backend/templates/views/floating_cart/settings.php:324
+msgid "Footer Settings"
+msgstr "脚设置"
+
+#: backend/templates/views/shipping_bar/settings.php:237
+msgid ""
+"Free Shipping Alert: Your order qualifies! Click {checkout_page} to proceed."
+msgstr ""
+
+#: backend/templates/views/modules.php:207
+#: backend/templates/views/shipping_bar/settings.php:68
+msgid "Free Shipping Bar"
+msgstr "免费送货吧"
+
+#: backend/templates/views/coupon_generator/settings.php:89
+msgid "free shipping method"
+msgstr "免费送货方式"
+
+#: backend/templates/views/pdf_invoice/shipping_label.php:29
+msgid "From"
+msgstr "从"
+
+#: backend/templates/views/pdf_invoice/invoice.php:26
+#: backend/templates/views/pdf_invoice/settings.php:505
+#: backend/templates/views/pdf_invoice/settings.php:627
+msgid "From Address"
+msgstr "从地址"
+
+#: backend/templates/views/address_book/settings.php:70
+#: backend/templates/views/coupon_generator/settings.php:62
+#: backend/templates/views/coupon_generator/settings.php:70
+#: backend/templates/views/floating_cart/settings.php:124
+#: backend/templates/views/one_click_checkout/settings.php:88
+#: backend/templates/views/pdf_invoice/settings.php:95
+#: backend/templates/views/product_filter/settings.php:110
+msgid "General"
+msgstr "一般"
+
+#: backend/templates/views/address_book/settings.php:80
+#: backend/templates/views/floating_cart/settings.php:160
+#: backend/templates/views/one_click_checkout/settings.php:98
+#: backend/templates/views/pdf_invoice/settings.php:146
+#: backend/templates/views/product_filter/settings.php:138
+#: backend/templates/views/shipping_bar/settings.php:101
+msgid "General Settings"
+msgstr "一般设置"
+
+#: backend/templates/views/floating_cart/settings.php:142
+#: backend/templates/views/floating_cart/settings.php:521
+msgid "General Style"
+msgstr "一般的风格"
+
+#: backend/templates/views/coupon_generator/settings.php:201
+msgid "Generate Coupons"
+msgstr "产生的优惠券"
+
+#: backend/templates/views/coupon_generator/settings.php:209
+msgid "Generating Coupons"
+msgstr "产生的优惠券"
+
+#: backend/class-wceazy-admin.php:143
+msgid "Get Support"
+msgstr "得到支持"
+
+#: backend/class-wceazy-admin.php:143
+msgid "Get support"
+msgstr "得到支持"
+
+#: backend/templates/views/floating_cart/settings.php:215
+msgid "Header Settings"
+msgstr "头设置"
+
+#: backend/templates/views/floating_cart/settings.php:145
+#: backend/templates/views/floating_cart/settings.php:659
+msgid "Header Style"
+msgstr "头风格"
+
+#: backend/templates/views/floating_cart/settings.php:676
+msgid "Heading Basket Icon Size(px)"
+msgstr "标题篮的图标的大小(px)"
+
+#: backend/templates/views/floating_cart/settings.php:710
+msgid "Heading Border Bottom Color"
+msgstr "往边境的底色"
+
+#: backend/templates/views/floating_cart/settings.php:696
+msgid "Heading Font Color"
+msgstr "标题的字体的彩色"
+
+#: backend/templates/views/floating_cart/settings.php:686
+msgid "Heading Font Size(px)"
+msgstr "标题的字体大小(px)"
+
+#: backend/templates/views/floating_cart/settings.php:407
+msgid "Heading Title"
+msgstr "标题"
+
+#: backend/templates/views/shipping_bar/settings.php:203
+msgid "Headline Text"
+msgstr "标题的文字"
+
+#: backend/templates/views/product_sticky_bar/settings.php:271
+msgid "Height"
+msgstr "高度"
+
+#: backend/templates/views/shipping_bar/settings.php:137
+msgid "Here"
+msgstr "在这里，"
+
+#: backend/templates/views/product_sticky_bar/settings.php:254
+msgid "Hide Sticky bar (Product Out of Stock)"
+msgstr "隐藏粘条(产品的股票)"
+
+#: backend/templates/views/product_sticky_bar/settings.php:243
+msgid "Hide Sticky Bar (Product Out of Stock) "
+msgstr ""
+
+#: backend/templates/views/floating_cart/settings.php:827
+msgid "Hide when cart is empty"
+msgstr "隐藏在车是空的"
+
+#: backend/templates/views/pdf_invoice/settings.php:263
+msgid "How do you want to view the PDF?"
+msgstr "如何做你想看PDF?"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wceazy.com"
+msgstr ""
+
+#: modules/product_filter/template.php:74
+#: backend/templates/views/product_filter/settings.php:65
+msgid "In Stock"
+msgstr "在股票"
+
+#: backend/templates/views/modules.php:25
+msgid "Inactive"
+msgstr "不活动"
+
+#: backend/templates/views/coupon_generator/settings.php:111
+msgid "Individual use only"
+msgstr "个人使用"
+
+#: backend/templates/views/shipping_bar/settings.php:251
+msgid "Initial Delay Time"
+msgstr "最初的延迟时间"
+
+#: backend/templates/views/product_filter/settings.php:437
+#: backend/templates/views/product_filter/settings.php:546
+msgid "Input Field Background Color"
+msgstr "输入领域的背景的颜色"
+
+#: backend/templates/views/product_filter/settings.php:421
+#: backend/templates/views/product_filter/settings.php:530
+msgid "Input Field Border Color"
+msgstr "输入栏边界的颜色"
+
+#: backend/templates/views/product_filter/settings.php:453
+#: backend/templates/views/product_filter/settings.php:562
+msgid "Input Field Text Color"
+msgstr "输入栏文本色"
+
+#: backend/templates/views/pdf_invoice/invoice.php:4
+#: backend/templates/views/pdf_invoice/invoice.php:10
+msgid "INVOICE"
+msgstr "发票"
+
+#: backend/templates/views/pdf_invoice/settings.php:98
+msgid "Invoice"
+msgstr "发票"
+
+#: backend/templates/views/pdf_invoice/settings.php:400
+msgid "Invoice Customization"
+msgstr "发票定制的"
+
+#: backend/templates/views/pdf_invoice/settings.php:463
+msgid "Invoice Date"
+msgstr "发票的日期"
+
+#: backend/templates/views/pdf_invoice/invoice.php:11
+msgid "Invoice Date:"
+msgstr "发票的日期："
+
+#: backend/templates/views/pdf_invoice/settings.php:441
+msgid "Invoice Number"
+msgstr "发票编号"
+
+#: backend/templates/views/pdf_invoice/settings.php:284
+msgid "Invoice Settings"
+msgstr "发票的设置"
+
+#: backend/templates/views/pdf_invoice/settings.php:370
+msgid "Invoice Start Number"
+msgstr "发票开始数"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:78
+msgid "Is Auto Coupon"
+msgstr "是汽车的优惠券"
+
+#: backend/templates/views/url_coupon/settings.php:63
+msgid "Is URL Coupon"
+msgstr "是URL优惠券"
+
+#: backend/templates/views/pdf_invoice/settings.php:104
+msgid "Label"
+msgstr "标签"
+
+#: backend/templates/views/product_filter/settings.php:405
+#: backend/templates/views/product_filter/settings.php:514
+#: backend/templates/views/product_filter/settings.php:608
+#: backend/templates/views/product_filter/settings.php:737
+#: backend/templates/views/product_filter/settings.php:854
+msgid "Label Font Color"
+msgstr "标签字体的彩色"
+
+#: backend/templates/views/product_filter/settings.php:380
+#: backend/templates/views/product_filter/settings.php:479
+#: backend/templates/views/product_filter/settings.php:588
+#: backend/templates/views/product_filter/settings.php:725
+#: backend/templates/views/product_filter/settings.php:821
+msgid "Label Text"
+msgstr "标签的案文"
+
+#: backend/templates/views/product_filter/settings.php:213
+msgid "Left"
+msgstr "左"
+
+#: backend/templates/views/url_coupon/url_coupon_tab.php:45
+msgid ""
+"Let your customers apply this coupon by visiting a URL. This coupon "
+"generates a unique coupon URL that can be used in all kind of scenarios (eg. "
+"email marketing, live chat support, blog links)."
+msgstr ""
+"让你的客户用这张优惠券通过访问网址。 这张优惠券产生的一个独特的优惠券的网址，可以使用所有类型的方案(例如。 电子邮件营销、在线聊天的支持，博客链接)。"
+
+#: backend/templates/license.php:15
+msgid "License"
+msgstr "许可证"
+
+#: backend/templates/views/coupon_generator/settings.php:182
+msgid "Limit usage to X items"
+msgstr "限制使用以X项目"
+
+#: backend/templates/views/product_filter/settings.php:35
+msgid "Max"
+msgstr "Max"
+
+#: backend/templates/views/product_filter/settings.php:502
+msgid "Max Placeholder Text"
+msgstr "Max文本"
+
+#: backend/templates/views/product_filter/settings.php:228
+msgid "Max Product Per Page"
+msgstr "最大的产品，每页"
+
+#: backend/templates/views/coupon_generator/settings.php:107
+msgid "Maximum spend"
+msgstr "最大的花"
+
+#: backend/templates/views/address_book/settings.php:141
+msgid "Menu Title"
+msgstr "菜单上标题"
+
+#: backend/templates/views/shipping_bar/settings.php:234
+msgid "Message on Completed Order Amount"
+msgstr "消息，在完成订单金额"
+
+#: backend/templates/views/shipping_bar/settings.php:226
+msgid "Message on Partially Completed Order Amount"
+msgstr "消息部分完成的订单金额"
+
+#: backend/templates/views/shipping_bar/settings.php:218
+msgid "Message on Zero Order Amount"
+msgstr "消息上的零阶量"
+
+#: backend/templates/views/shipping_bar/settings.php:87
+msgid "Messages"
+msgstr "消息"
+
+#: backend/templates/views/product_filter/settings.php:34
+msgid "Min"
+msgstr "Min"
+
+#: backend/templates/views/product_filter/settings.php:490
+msgid "Min Placeholder Text"
+msgstr "Min文本"
+
+#: backend/templates/views/coupon_generator/settings.php:103
+msgid "Minimum spend"
+msgstr "最低消费"
+
+#: backend/templates/views/modules.php:16
+msgid "Modules"
+msgstr "模块"
+
+#: backend/templates/views/coupon_generator/settings.php:90
+msgid ""
+"must be enabled in your shipping zone and be set to require \"a valid free "
+"shipping coupon\" (see the \"Free Shipping Requires\" setting)."
+msgstr "必须启用你的航运区和被设定要求\"一个有效的运费优惠券\"(见的\"免费送货需要\"设置)。"
+
+#: backend/templates/views/pdf_invoice/invoice.php:94
+#: backend/templates/views/pdf_invoice/invoice.php:101
+msgid "Name of the product"
+msgstr "产品的名称"
+
+#: backend/templates/views/pdf_invoice/invoice.php:29
+#: backend/templates/views/pdf_invoice/shipping_label.php:36
+msgid "Name of the shop"
+msgstr "名称的店"
+
+#: backend/templates/license.php:10 backend/templates/views/modules.php:10
+#: backend/templates/views/address_book/settings.php:46
+#: backend/templates/views/auto_apply_coupon/settings.php:9
+#: backend/templates/views/bogo_deal/settings.php:8
+#: backend/templates/views/coupon_generator/settings.php:8
+#: backend/templates/views/floating_cart/settings.php:96
+#: backend/templates/views/one_click_checkout/settings.php:68
+#: backend/templates/views/order_cancel/settings.php:37
+#: backend/templates/views/pdf_invoice/settings.php:66
+#: backend/templates/views/product_filter/settings.php:85
+#: backend/templates/views/product_sticky_bar/settings.php:52
+#: backend/templates/views/shipping_bar/settings.php:62
+#: backend/templates/views/url_coupon/settings.php:8
+msgid "Need help?"
+msgstr "需要帮忙吗？"
+
+#: backend/templates/views/pdf_invoice/settings.php:323
+msgid "New Order(Admin Email) "
+msgstr ""
+
+#: backend/templates/views/product_filter/settings.php:18
+msgid "Next"
+msgstr "下"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:95
+msgid "No"
+msgstr "没有"
+
+#: backend/templates/views/bogo_deal/settings.php:26
+msgid "No pricing rule has been created"
+msgstr "没有定价规则已经被创造了"
+
+#: backend/templates/views/coupon_generator/settings.php:34
+msgid "Number of Coupons"
+msgstr "数量的优惠券"
+
+#: backend/templates/views/coupon_generator/settings.php:43
+msgid "Numbers"
+msgstr "号码"
+
+#: backend/templates/views/pdf_invoice/settings.php:332
+msgid "On-Hold Order "
+msgstr ""
+
+#: backend/templates/views/modules.php:147
+#: backend/templates/views/one_click_checkout/settings.php:75
+msgid "One Click Checkout"
+msgstr "一击，结帐"
+
+#: backend/templates/views/pdf_invoice/settings.php:269
+msgid "Open The PDF in a New Window"
+msgstr "打开PDF在一个新的窗口"
+
+#: backend/templates/views/order_cancel/settings.php:117
+msgid "Order"
+msgstr "了"
+
+#: backend/templates/views/modules.php:270
+#: backend/templates/views/order_cancel/settings.php:43
+msgid "Order Cancel"
+msgstr "为了取消"
+
+#: backend/templates/views/pdf_invoice/settings.php:474
+msgid "Order Date"
+msgstr "订单日期"
+
+#: backend/templates/views/pdf_invoice/invoice.php:13
+msgid "Order Date:"
+msgstr "订单日期："
+
+#: backend/templates/views/pdf_invoice/invoice.php:12
+msgid "Order No.:"
+msgstr "为。"
+
+#: backend/templates/views/pdf_invoice/shipping_label.php:11
+msgid "Order No.: "
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:452
+#: backend/templates/views/pdf_invoice/settings.php:651
+msgid "Order Number"
+msgstr "以数量"
+
+#: backend/templates/views/pdf_invoice/settings.php:259
+msgid "Other Settings"
+msgstr "其他的设置"
+
+#: modules/product_filter/template.php:75
+#: backend/templates/views/product_filter/settings.php:66
+msgid "Out of Stock"
+msgstr "股票"
+
+#: backend/templates/views/product_filter/settings.php:324
+msgid "Pagination Button Border Color"
+msgstr "页码按钮边界的颜色"
+
+#: backend/templates/views/product_filter/settings.php:339
+msgid "Pagination Button Font Color"
+msgstr "分页的键的字体的彩色"
+
+#: backend/templates/views/pdf_invoice/settings.php:344
+msgid "Partially Refunded Order "
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:560
+msgid "Payment Method"
+msgstr "支付的方法"
+
+#: backend/templates/views/pdf_invoice/invoice.php:147
+msgid "Payment Method:"
+msgstr "支付方法："
+
+#: backend/templates/views/pdf_invoice/settings.php:92
+#: backend/templates/views/pdf_invoice/settings.php:114
+msgid "PDF Document"
+msgstr "PDF文档"
+
+#: backend/templates/views/modules.php:187
+#: backend/templates/views/pdf_invoice/settings.php:72
+msgid "PDF Invoice & Packing Slips"
+msgstr "PDF发票和包装单"
+
+#: backend/templates/views/order_cancel/settings.php:98
+msgid "Pending"
+msgstr "待"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:33
+#: backend/templates/views/order_cancel/settings.php:75
+#: backend/templates/views/url_coupon/settings.php:27
+msgid "Per page view"
+msgstr "每页查看"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:54
+#: backend/templates/views/bogo_deal/settings.php:63
+#: backend/templates/views/coupon_generator/settings.php:76
+#: backend/templates/views/url_coupon/settings.php:43
+msgid "Percentage discount"
+msgstr "百分比折扣"
+
+#: backend/templates/views/pdf_invoice/settings.php:549
+msgid "Phone Number"
+msgstr "电话号码"
+
+#: backend/templates/views/product_filter/settings.php:393
+msgid "Placeholder Text"
+msgstr "文本"
+
+#: backend/templates/views/pdf_invoice/settings.php:349
+msgid "Please choose when you want the invoice to be emailed."
+msgstr "请选择你想要的发票是电子邮件发送。"
+
+#: modules/url_coupon/ModuleUtils.php:170
+msgid "Please first add the product to the cart and then apply the URL coupon."
+msgstr "请第一添加的产品的车，然后应用该URL券。"
+
+#: backend/templates/views/bogo_deal/settings.php:62
+#: backend/templates/views/bogo_deal/settings.php:100
+#: backend/templates/views/bogo_deal/settings.php:118
+#: backend/templates/views/coupon_generator/settings.php:41
+#: backend/templates/views/coupon_generator/settings.php:51
+#: backend/templates/views/coupon_generator/settings.php:75
+#: backend/templates/views/coupon_generator/settings.php:127
+#: backend/templates/views/coupon_generator/settings.php:138
+#: backend/templates/views/coupon_generator/settings.php:149
+#: backend/templates/views/coupon_generator/settings.php:160
+#: backend/templates/views/floating_cart/settings.php:179
+#: backend/templates/views/floating_cart/settings.php:541
+#: backend/templates/views/floating_cart/settings.php:818
+#: backend/templates/views/floating_cart/settings.php:837
+#: backend/templates/views/one_click_checkout/settings.php:136
+#: backend/templates/views/one_click_checkout/settings.php:240
+#: backend/templates/views/one_click_checkout/settings.php:252
+#: backend/templates/views/one_click_checkout/settings.php:500
+#: backend/templates/views/order_cancel/settings.php:141
+#: backend/templates/views/pdf_invoice/settings.php:239
+#: backend/templates/views/pdf_invoice/settings.php:266
+#: backend/templates/views/pdf_invoice/settings.php:292
+#: backend/templates/views/product_filter/settings.php:207
+#: backend/templates/views/product_sticky_bar/settings.php:130
+#: backend/templates/views/product_sticky_bar/settings.php:195
+#: backend/templates/views/product_sticky_bar/settings.php:285
+#: backend/templates/views/shipping_bar/settings.php:132
+#: backend/templates/views/shipping_bar/settings.php:147
+#: backend/templates/views/shipping_bar/settings.php:160
+msgid "Please select"
+msgstr "请选择"
+
+#: backend/templates/views/floating_cart/settings.php:204
+msgid "Please select pages where you do not show floating cart."
+msgstr "请选择的网页在那里你不会出现浮动车。"
+
+#: backend/templates/views/floating_cart/settings.php:745
+msgid "Please select your delete icon."
+msgstr "请选择你的删除标。"
+
+#: backend/templates/views/floating_cart/settings.php:335
+msgid "Please turn off if do not want fixed footer."
+msgstr "请关闭，如果不希望固定的脚注。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:259
+msgid ""
+"Please turn on if you don't want to show the sticky bar when the product is "
+"out of stock"
+msgstr "请打开如果你不想告诉粘酒吧时，该产品是股票"
+
+#: backend/templates/views/floating_cart/settings.php:170
+msgid "Please turn on if you want to auto open floating cart."
+msgstr "请打开如果你想自动开放浮动车。"
+
+#: backend/templates/views/one_click_checkout/settings.php:249
+msgid "Position Of the Button"
+msgstr "位置的按钮"
+
+#: backend/templates/views/pdf_invoice/settings.php:226
+msgid "Postal Code"
+msgstr "邮政编码"
+
+#: backend/templates/views/coupon_generator/settings.php:29
+#: backend/templates/views/pdf_invoice/settings.php:379
+msgid "Prefix"
+msgstr "前缀"
+
+#: backend/templates/views/product_filter/settings.php:17
+msgid "Previous"
+msgstr "以前的"
+
+#: backend/templates/views/pdf_invoice/invoice.php:89
+msgid "PRICE"
+msgstr "价格"
+
+#: backend/templates/views/product_filter/settings.php:119
+msgid "Price Filter"
+msgstr "价格的过滤器"
+
+#: backend/templates/views/product_filter/settings.php:471
+msgid "Price Filter Settings"
+msgstr "价格筛选设置"
+
+#: backend/templates/views/pdf_invoice/settings.php:335
+msgid "Processing Order"
+msgstr "处理了"
+
+#: backend/templates/views/pdf_invoice/invoice.php:87
+msgid "PRODUCT"
+msgstr "产品"
+
+#: backend/templates/views/bogo_deal/settings.php:98
+#: backend/templates/views/bogo_deal/settings.php:116
+msgid "Product"
+msgstr "产品"
+
+#: backend/templates/views/coupon_generator/settings.php:147
+msgid "Product categories"
+msgstr "产品类别"
+
+#: backend/templates/views/modules.php:251
+#: backend/templates/views/product_filter/settings.php:92
+msgid "Product Filter"
+msgstr "产品过滤器"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:75
+#: backend/templates/views/url_coupon/settings.php:60
+msgid "Product IDs"
+msgstr "产品Id"
+
+#: backend/templates/views/product_sticky_bar/settings.php:282
+msgid "Product Image Shape"
+msgstr "产品的图像形状"
+
+#: backend/templates/views/floating_cart/settings.php:770
+msgid "Product Image Width"
+msgstr "产品图像的宽度"
+
+#: backend/templates/views/product_filter/settings.php:354
+msgid "Product Loader Color"
+msgstr "产品装载的颜色"
+
+#: backend/templates/views/floating_cart/settings.php:731
+msgid "Product Remove Icon"
+msgstr "产品删除的图标"
+
+#: backend/templates/views/floating_cart/settings.php:751
+#: backend/templates/views/floating_cart/settings.php:760
+msgid "Product Remove Icon Size(px)"
+msgstr "产品删除的标尺寸(px)"
+
+#: backend/templates/views/order_cancel/settings.php:133
+#: backend/templates/views/product_filter/settings.php:113
+#: backend/templates/views/product_filter/settings.php:222
+msgid "Product Settings"
+msgstr "产品设置"
+
+#: backend/templates/views/modules.php:127
+#: backend/templates/views/product_sticky_bar/settings.php:60
+msgid "Product Sticky Bar"
+msgstr "产品的粘性的酒吧"
+
+#: backend/templates/views/floating_cart/settings.php:780
+#: backend/templates/views/product_sticky_bar/settings.php:302
+msgid "Product Title Color"
+msgstr "产品标题的颜色"
+
+#: backend/templates/views/coupon_generator/settings.php:125
+msgid "Products"
+msgstr "产品"
+
+#: backend/templates/views/bogo_deal/settings.php:74
+msgid "Products to Buy"
+msgstr "要购买的产品"
+
+#: backend/templates/views/bogo_deal/settings.php:84
+msgid "Products to Gift"
+msgstr "产品的礼物"
+
+#: backend/templates/views/shipping_bar/settings.php:281
+msgid "Progress Bar Style"
+msgstr "进度条风格"
+
+#: backend/templates/views/order_cancel/settings.php:190
+msgid "Provide the color for Cancel Button Background for the popup form."
+msgstr "提供的颜色取消按钮背景的弹出窗口的形式。"
+
+#: backend/templates/views/order_cancel/settings.php:180
+msgid ""
+"Provide the color for cancellation Reqeust Submit Button for the popup form."
+msgstr "提供彩色，用于消除Reqeust提交按钮的弹出窗口的形式。"
+
+#: backend/templates/views/pdf_invoice/invoice.php:88
+msgid "QUANTITY"
+msgstr "数量"
+
+#: backend/templates/views/floating_cart/settings.php:793
+msgid "Quantity Box Text Color"
+msgstr "数量框文字颜色"
+
+#: backend/templates/views/bogo_deal/settings.php:105
+#: backend/templates/views/bogo_deal/settings.php:123
+msgid "Quantity Required"
+msgstr "需求数量"
+
+#: backend/templates/views/product_filter/settings.php:122
+msgid "Rating Filter"
+msgstr "评价的过滤器"
+
+#: backend/templates/views/product_filter/settings.php:580
+msgid "Rating Filter Settings"
+msgstr "评价过滤设置"
+
+#: backend/templates/views/one_click_checkout/settings.php:203
+msgid "Read more button text"
+msgstr "更多按钮文本"
+
+#: backend/templates/views/pdf_invoice/settings.php:172
+msgid "Recommended image size 150px X 60px"
+msgstr "建议图像大小个150像素X60px"
+
+#: backend/templates/views/one_click_checkout/settings.php:145
+msgid "Redirect to custom url"
+msgstr "重定向到定义url"
+
+#: backend/templates/views/one_click_checkout/settings.php:128
+msgid ""
+"Redirect to custom url instead of page, so using this you can redirect to "
+"any page."
+msgstr "重定向到定义url而不是页面，所以使用这个可以重定向到任何网页。"
+
+#: backend/templates/views/one_click_checkout/settings.php:125
+msgid "Redirect to custom url?"
+msgstr "重定向到定义url?"
+
+#: backend/templates/views/one_click_checkout/settings.php:133
+#: backend/templates/views/one_click_checkout/settings.php:237
+msgid "Redirect to page"
+msgstr "重定向到的页面"
+
+#: backend/templates/views/one_click_checkout/settings.php:148
+msgid ""
+"Redirect to this any custom url of your website e.g.: http://yourwebsite.com"
+msgstr ""
+
+#: backend/templates/views/floating_cart/settings.php:139
+msgid "Redirect URLs"
+msgstr "向网址"
+
+#: backend/templates/views/floating_cart/settings.php:481
+msgid "Redirect URLs Settings"
+msgstr "向网址设置"
+
+#: backend/templates/views/one_click_checkout/settings.php:497
+msgid "Remove billing fields?"
+msgstr "除计费领域？"
+
+#: backend/templates/views/one_click_checkout/settings.php:472
+msgid "Remove coupon form"
+msgstr "删除形式的优惠券"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:49
+msgid "Remove from auto apply"
+msgstr "删除自动适用"
+
+#: backend/templates/views/one_click_checkout/settings.php:464
+msgid "Remove order comment"
+msgstr "除了评论"
+
+#: backend/templates/views/one_click_checkout/settings.php:480
+msgid "Remove policy text"
+msgstr "删除的政策的文本"
+
+#: backend/templates/views/one_click_checkout/settings.php:518
+msgid "Remove shipping fields?"
+msgstr "删除航运领域？"
+
+#: backend/templates/views/one_click_checkout/settings.php:488
+msgid "Remove terms & condition?"
+msgstr "删除的条款和条件？"
+
+#: backend/templates/views/order_cancel/settings.php:121
+msgid "Request Status"
+msgstr "请求的状态"
+
+#: backend/templates/views/bogo_deal/settings.php:104
+#: backend/templates/views/bogo_deal/settings.php:122
+msgid "Required Quantity"
+msgstr "需求数量"
+
+#: backend/templates/views/product_filter/settings.php:210
+msgid "Right "
+msgstr ""
+
+#: backend/templates/views/floating_cart/settings.php:840
+#: backend/templates/views/product_sticky_bar/settings.php:288
+msgid "Round"
+msgstr "圆"
+
+#: backend/templates/views/bogo_deal/settings.php:20
+msgid "Save Changes"
+msgstr "保存变化"
+
+#: backend/templates/views/address_book/settings.php:348
+#: backend/templates/views/floating_cart/settings.php:869
+#: backend/templates/views/one_click_checkout/settings.php:544
+#: backend/templates/views/order_cancel/settings.php:203
+#: backend/templates/views/pdf_invoice/settings.php:716
+#: backend/templates/views/product_filter/settings.php:935
+#: backend/templates/views/product_sticky_bar/settings.php:336
+#: backend/templates/views/shipping_bar/settings.php:297
+msgid "Save Settings"
+msgstr "保存的设置"
+
+#: backend/templates/views/product_sticky_bar/settings.php:156
+msgid "Scroll Pixels"
+msgstr "滚动像素"
+
+#: backend/templates/views/url_coupon/settings.php:49
+msgid "Search"
+msgstr "搜索"
+
+#: backend/templates/views/product_filter/settings.php:116
+msgid "Search Filter"
+msgstr "搜寻过滤器"
+
+#: backend/templates/views/order_cancel/settings.php:169
+#: backend/templates/views/product_filter/settings.php:373
+msgid "Search Filter Settings"
+msgstr "搜寻过滤器的设置"
+
+#: backend/templates/views/modules.php:30
+msgid "Search module, please type 3 or more characters"
+msgstr "搜索模块，请型3个或更多的人物"
+
+#: modules/product_filter/template.php:25
+#: modules/product_filter/template.php:28
+#: backend/templates/views/product_filter/settings.php:25
+#: backend/templates/views/product_filter/settings.php:26
+msgid "Search Product"
+msgstr "搜索产品"
+
+#: backend/templates/views/order_cancel/settings.php:138
+msgid "Select allowed status"
+msgstr "选择允许的状况"
+
+#: backend/templates/views/address_book/settings.php:233
+#: backend/templates/views/address_book/settings.php:244
+#: backend/templates/views/address_book/settings.php:255
+#: backend/templates/views/address_book/settings.php:266
+#: backend/templates/views/address_book/settings.php:278
+#: backend/templates/views/address_book/settings.php:291
+#: backend/templates/views/address_book/settings.php:302
+#: backend/templates/views/address_book/settings.php:313
+#: backend/templates/views/address_book/settings.php:324
+#: backend/templates/views/address_book/settings.php:336
+#: backend/templates/views/floating_cart/settings.php:570
+#: backend/templates/views/floating_cart/settings.php:584
+#: backend/templates/views/floating_cart/settings.php:598
+#: backend/templates/views/floating_cart/settings.php:625
+#: backend/templates/views/floating_cart/settings.php:639
+#: backend/templates/views/floating_cart/settings.php:702
+#: backend/templates/views/floating_cart/settings.php:716
+#: backend/templates/views/floating_cart/settings.php:786
+#: backend/templates/views/floating_cart/settings.php:799
+#: backend/templates/views/floating_cart/settings.php:858
+#: backend/templates/views/order_cancel/settings.php:178
+#: backend/templates/views/order_cancel/settings.php:188
+#: backend/templates/views/product_filter/settings.php:300
+#: backend/templates/views/product_filter/settings.php:314
+#: backend/templates/views/product_filter/settings.php:330
+#: backend/templates/views/product_filter/settings.php:345
+#: backend/templates/views/product_filter/settings.php:360
+#: backend/templates/views/product_filter/settings.php:411
+#: backend/templates/views/product_filter/settings.php:427
+#: backend/templates/views/product_filter/settings.php:443
+#: backend/templates/views/product_filter/settings.php:459
+#: backend/templates/views/product_filter/settings.php:520
+#: backend/templates/views/product_filter/settings.php:536
+#: backend/templates/views/product_filter/settings.php:552
+#: backend/templates/views/product_filter/settings.php:568
+#: backend/templates/views/product_filter/settings.php:614
+#: backend/templates/views/product_filter/settings.php:629
+#: backend/templates/views/product_filter/settings.php:743
+#: backend/templates/views/product_filter/settings.php:758
+#: backend/templates/views/product_filter/settings.php:773
+#: backend/templates/views/product_filter/settings.php:789
+#: backend/templates/views/product_filter/settings.php:804
+#: backend/templates/views/product_filter/settings.php:860
+#: backend/templates/views/product_filter/settings.php:875
+#: backend/templates/views/product_filter/settings.php:891
+#: backend/templates/views/product_filter/settings.php:907
+#: backend/templates/views/product_filter/settings.php:923
+#: backend/templates/views/product_sticky_bar/settings.php:308
+msgid "Select Color"
+msgstr "选择颜色"
+
+#: backend/templates/views/floating_cart/settings.php:194
+msgid "Select Don't Show Pages"
+msgstr "选择不显示的网页"
+
+#: backend/templates/views/product_filter/settings.php:15
+msgid "Select Options"
+msgstr "选择选项"
+
+#: backend/templates/views/one_click_checkout/settings.php:195
+msgid "Select options button text"
+msgstr "选择选项文本按钮"
+
+#: backend/templates/views/shipping_bar/settings.php:129
+msgid "Select Shipping Zone"
+msgstr "选择运输区域"
+
+#: backend/templates/views/one_click_checkout/settings.php:513
+msgid "Select the fields that you want to remove from ‘Billing Section’."
+msgstr "选择的领域，你想去除自费部分'."
+
+#: backend/templates/views/one_click_checkout/settings.php:532
+msgid "Select the fields that you want to remove from ‘Shipping Section’."
+msgstr "选择的领域，要删除航运部分'."
+
+#: backend/templates/views/shipping_bar/settings.php:152
+msgid "Select the pages where you don't want to show the Free Shipping Bar."
+msgstr "选择的网页在那里你不想告诉免费送货吧。"
+
+#: backend/templates/views/shipping_bar/settings.php:165
+msgid ""
+"Select the products for which you don't want to allow Free Shipping Bar."
+msgstr "选择的产品为其不希望允许免费送货吧。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:202
+msgid "Select the products where you do not want to show the sticky bar"
+msgstr "选择的产品，你不想告诉粘吧"
+
+#: backend/templates/views/pdf_invoice/settings.php:191
+msgid "Sender Name"
+msgstr "发件人的名字"
+
+#: backend/templates/views/product_filter/settings.php:302
+msgid ""
+"Set background color of Add to Cart, Select Option and Stock Out button."
+msgstr "设定的背景的颜色加入购物车，选择的选项和股票按钮。"
+
+#: backend/templates/views/floating_cart/settings.php:586
+msgid "Set background color of all buttons"
+msgstr "设置背景颜色的按钮"
+
+#: backend/templates/views/product_filter/settings.php:554
+msgid "Set background color of input field of the price filter."
+msgstr "设定的背景的颜色输入场的价格的过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:445
+msgid "Set background color of input field of the search filter."
+msgstr "设定的背景的颜色输入领域的搜寻过滤器。"
+
+#: backend/templates/views/floating_cart/settings.php:627
+msgid "Set border color of all buttons"
+msgstr "设置边界颜色的按钮"
+
+#: backend/templates/views/product_filter/settings.php:538
+msgid "Set border color of input field of the price filter."
+msgstr "设置边界颜色的输入场的价格的过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:429
+msgid "Set border color of input field of the search filter."
+msgstr "设置边界颜色的输入领域的搜寻过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:332
+msgid "Set border color of Previous Page and Next Page buttons."
+msgstr "设置边界颜色的一页和下页的按钮。"
+
+#: backend/templates/views/floating_cart/settings.php:641
+msgid "Set border hover color of all buttons"
+msgstr "设置边界悬停颜色的按钮"
+
+#: backend/templates/views/floating_cart/settings.php:492
+msgid "Set continue shopping button url."
+msgstr "组继续购物按钮的网址。"
+
+#: backend/templates/views/shipping_bar/settings.php:267
+msgid "Set Disappear Time"
+msgstr "设定时间消失"
+
+#: backend/templates/views/shipping_bar/settings.php:270
+msgid ""
+"Set disappear time in milliseconds. The Free Shipping Bar will disappear "
+"according to your setting time."
+msgstr "套消失的时间在毫秒。 免费送货条将消失，根据设定的时间。"
+
+#: backend/templates/views/floating_cart/settings.php:572
+msgid "Set font color of all buttons"
+msgstr "设置的字体的彩色的按钮"
+
+#: backend/templates/views/floating_cart/settings.php:613
+msgid "Set hover background color of all buttons"
+msgstr "设置悬停的背景色的按钮"
+
+#: backend/templates/views/floating_cart/settings.php:600
+msgid "Set hover font color of all buttons"
+msgstr "设悬浮的字体的彩色的按钮"
+
+#: backend/templates/views/product_filter/settings.php:232
+msgid "Set maximum number of products can be showed in a page."
+msgstr "设定最大数量的产品可以显示在一个页面。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:322
+msgid "Set sticky bar add to cart button top-bottom padding (Default: 10)"
+msgstr "设置粘条添加到车按钮上下填补(Default:10)"
+
+#: backend/templates/views/product_sticky_bar/settings.php:275
+msgid "Set sticky bar height in pixels (e.g., 150) - Default 100px."
+msgstr "设置粘酒吧高素(例如，150)违约100像素."
+
+#: backend/templates/views/product_filter/settings.php:631
+msgid "Set text color of \"And Up\" text shown beside ratings."
+msgstr "设置文本的颜色\"和\"文本所示旁边的评级。"
+
+#: backend/templates/views/product_filter/settings.php:316
+msgid "Set text color of Add to Cart, Select Option and Stock Out button."
+msgstr "设置文字颜色加入购物车，选择的选项和股票按钮。"
+
+#: backend/templates/views/product_filter/settings.php:760
+msgid "Set text color of category name."
+msgstr "设置文字颜色的分类名称。"
+
+#: backend/templates/views/product_filter/settings.php:570
+msgid "Set text color of input field of the price filter."
+msgstr "设置文字颜色的输入场的价格的过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:461
+msgid "Set text color of input field of the search filter."
+msgstr "设置文字颜色的输入领域的搜寻过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:745
+msgid "Set text color of label of the category filter."
+msgstr "设置文字颜色的标签类别的过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:522
+msgid "Set text color of label of the price filter."
+msgstr "设置文字颜色的标签的价格的过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:616
+msgid "Set text color of label of the rating filter."
+msgstr "设置文字颜色的标签等级过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:413
+msgid "Set text color of label of the search filter."
+msgstr "设置文字颜色的标签的搜寻过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:862
+msgid "Set text color of label of the stock filter."
+msgstr "设置文字颜色的标签证券的过滤器。"
+
+#: backend/templates/views/product_filter/settings.php:347
+msgid "Set text color of Previous Page and Next Page buttons."
+msgstr "设置文字颜色的一页和下页的按钮。"
+
+#: backend/templates/views/product_filter/settings.php:877
+msgid "Set text color of stock status name."
+msgstr "设置文字颜色的库存状况的名称。"
+
+#: backend/templates/views/product_filter/settings.php:243
+msgid "Set the \"Add to Cart\" button text."
+msgstr "设置\"添加到车\"键的文字。"
+
+#: backend/templates/views/product_filter/settings.php:602
+msgid "Set the \"And Up\" text shown beside ratings."
+msgstr "设置\"和\"文本所示旁边的评级。"
+
+#: backend/templates/views/product_filter/settings.php:836
+msgid "Set the \"In Stock\" option text."
+msgstr "设置\"股票\"选项的案文。"
+
+#: backend/templates/views/product_filter/settings.php:287
+msgid "Set the \"Next Page\" button text."
+msgstr "设定的\"下一页\"的按钮的文本。"
+
+#: backend/templates/views/product_filter/settings.php:847
+msgid "Set the \"Out of Stock\" option text."
+msgstr "设定的\"缺货\"选项的案文。"
+
+#: backend/templates/views/product_filter/settings.php:276
+msgid "Set the \"Previous Page\" button text."
+msgstr "设置\"一页\"的按钮的文本。"
+
+#: backend/templates/views/product_filter/settings.php:254
+msgid "Set the \"Select Options\" button text for variable products."
+msgstr "设定的\"选择\"的按钮文字变量的产品。"
+
+#: backend/templates/views/product_filter/settings.php:265
+msgid "Set the \"Stock Out\" button text for stock out products."
+msgstr "设置\"股票\"按钮文本的股票出产品。"
+
+#: backend/templates/views/address_book/settings.php:144
+msgid "Set the account page menu title for Address Book."
+msgstr "设置帐户的网页菜单标题的地址簿。"
+
+#: backend/templates/views/address_book/settings.php:257
+msgid "Set the add new button background color on hover."
+msgstr "设置添加新的按钮的背景的颜色在悬停。"
+
+#: backend/templates/views/address_book/settings.php:235
+msgid "Set the add new button background color."
+msgstr "设置添加新的按钮的背景的颜色。"
+
+#: backend/templates/views/address_book/settings.php:280
+msgid "Set the add new button border color on hover."
+msgstr "设置添加新的按钮边界上的颜色。"
+
+#: backend/templates/views/address_book/settings.php:268
+msgid "Set the add new button text color on hover."
+msgstr "设置添加新的按钮的文字颜色上徘徊。"
+
+#: backend/templates/views/address_book/settings.php:246
+msgid "Set the add new button text color."
+msgstr "设置添加新的按钮文本的颜色。"
+
+#: backend/templates/views/address_book/settings.php:210
+msgid "Set the address delete link text."
+msgstr "设置地址删除的链接文本。"
+
+#: backend/templates/views/address_book/settings.php:202
+msgid "Set the address edit link text."
+msgstr "设置地址链接编辑的文本。"
+
+#: backend/templates/views/address_book/settings.php:218
+msgid "Set the address make primary link text."
+msgstr "设置地址使主要的链接文本。"
+
+#: backend/templates/views/address_book/settings.php:134
+msgid "Set the address selection field label text on checkout page."
+msgstr "设址选择的领域的标签上的文字结帐页。"
+
+#: backend/templates/views/address_book/settings.php:293
+msgid "Set the background color of address card."
+msgstr "设置背景色的地址卡。"
+
+#: backend/templates/views/product_filter/settings.php:806
+#: backend/templates/views/product_filter/settings.php:925
+msgid "Set the background color of checkbox on checked state."
+msgstr "设置背景色的框关检查的状态。"
+
+#: backend/templates/views/product_filter/settings.php:775
+#: backend/templates/views/product_filter/settings.php:893
+msgid "Set the background color of checkbox on unchecked state."
+msgstr "设置背景色的框在未经检查的状态。"
+
+#: backend/templates/views/address_book/settings.php:304
+msgid "Set the border color of address card."
+msgstr "设置边界颜色的地址卡。"
+
+#: backend/templates/views/product_filter/settings.php:791
+#: backend/templates/views/product_filter/settings.php:909
+msgid "Set the border color of checkbox on unchecked state."
+msgstr "设置边界颜色的框在未经检查的状态。"
+
+#: backend/templates/views/address_book/settings.php:168
+msgid "Set the button text of add new billing address."
+msgstr "设置按钮案文中添加新的帐单的地址。"
+
+#: backend/templates/views/address_book/settings.php:177
+msgid "Set the button text of add new shipping address."
+msgstr "设置按钮案文添加新运输地址。"
+
+#: backend/templates/views/order_cancel/settings.php:162
+msgid "Set the Cacellation Policy Link"
+msgstr "设置Cacellation政策的链接"
+
+#: backend/templates/views/product_filter/settings.php:729
+msgid "Set the Category Filter Label text."
+msgstr "设定的类别过滤标签的案文。"
+
+#: backend/templates/views/product_filter/settings.php:362
+msgid "Set the color of product loader animation."
+msgstr "集的颜色产品装载机动画。"
+
+#: backend/templates/views/address_book/settings.php:185
+msgid "Set the empty message text of billing address book."
+msgstr "设置在空信息的文本的帐单的地址簿。"
+
+#: backend/templates/views/address_book/settings.php:193
+msgid "Set the empty message text of shipping address book."
+msgstr "设置在空信息的文本的运输地址簿。"
+
+#: backend/templates/views/address_book/settings.php:326
+msgid "Set the footer background color of address card."
+msgstr "设置脚注的背景色的地址卡。"
+
+#: backend/templates/views/address_book/settings.php:152
+msgid "Set the headline text of billing address book."
+msgstr "设置标题的文本的帐单的地址簿。"
+
+#: backend/templates/views/address_book/settings.php:160
+msgid "Set the headline text of shipping address book."
+msgstr "设置标题的文本的运输地址簿。"
+
+#: backend/templates/views/address_book/settings.php:338
+msgid "Set the link text color of address card."
+msgstr "设定链接的文字颜色的地址卡。"
+
+#: backend/templates/views/product_filter/settings.php:506
+msgid "Set the Maximum Price Field input placeholder text."
+msgstr "设定的最高价领域的输入占位的文本。"
+
+#: backend/templates/views/product_filter/settings.php:494
+msgid "Set the Minimum Price Field input placeholder text."
+msgstr "设定最低价格领域的输入占位的文本。"
+
+#: backend/templates/views/product_filter/settings.php:483
+msgid "Set the Price Filter Label text."
+msgstr "定价的过滤器标签的案文。"
+
+#: backend/templates/views/product_filter/settings.php:592
+msgid "Set the Rating Filter Label text."
+msgstr "设定的级别过滤器标签的案文。"
+
+#: backend/templates/views/product_filter/settings.php:397
+msgid "Set the Search Field input placeholder text."
+msgstr "设置搜索现场输入占位的文本。"
+
+#: backend/templates/views/product_filter/settings.php:385
+msgid "Set the Search Filter Label text."
+msgstr "设置的搜寻过滤器标签的案文。"
+
+#: backend/templates/views/product_filter/settings.php:825
+msgid "Set the Stock Filter Label text."
+msgstr "设置库存过滤器标签的案文。"
+
+#: backend/templates/views/address_book/settings.php:315
+msgid "Set the text color of address inside address card."
+msgstr "设置文字颜色的地址内的地址卡。"
+
+#: backend/templates/views/shipping_bar/settings.php:254
+msgid ""
+"Set the time delay for Free Shipping Bar to decide when it appears in "
+"milliseconds."
+msgstr "设定时间延迟的免费运输条决定的时候它会出现在毫秒。"
+
+#: backend/templates/views/floating_cart/settings.php:502
+msgid "Set view cart details button url."
+msgstr "设置图车的细节按钮的网址。"
+
+#: backend/templates/views/floating_cart/settings.php:512
+msgid "Set view checkout button url."
+msgstr "设置图，结算按钮的网址。"
+
+#: backend/templates/views/floating_cart/settings.php:651
+msgid "Set your all button border raduis (Ex. 4)"
+msgstr "设置你的按钮所有边境raduis(Ex。 4)"
+
+#: backend/templates/views/floating_cart/settings.php:558
+msgid "Set your all button font size in px (Ex. 16)"
+msgstr "集你所有的字体大小按钮在px(Ex。 16)"
+
+#: backend/templates/views/floating_cart/settings.php:755
+#: backend/templates/views/floating_cart/settings.php:764
+msgid "Set your cart content delete icon size in px (Ex. 16)"
+msgstr "设置你的车内容删除标尺寸在px(Ex。 16)"
+
+#: backend/templates/views/floating_cart/settings.php:774
+msgid "Set your cart content product image width in percent(%) (Ex. 100)"
+msgstr "设置你的车内容的产品图像的宽度中的百分比(％)(Ex。 100)"
+
+#: backend/templates/views/floating_cart/settings.php:680
+msgid "Set your cart header basket icon in px (Ex. 30)"
+msgstr "设置你的车头篮的图标px(Ex。 30)"
+
+#: backend/templates/views/floating_cart/settings.php:718
+msgid "Set your cart header border bottom color."
+msgstr "设置你的车头的底边界的颜色。"
+
+#: backend/templates/views/floating_cart/settings.php:670
+msgid "Set your cart header cross icon in px (Ex. 30)"
+msgstr "设置你的车头的跨标px(Ex。 30)"
+
+#: backend/templates/views/floating_cart/settings.php:704
+msgid "Set your cart header font color."
+msgstr "设置你的车头的字体的颜色。"
+
+#: backend/templates/views/floating_cart/settings.php:690
+msgid "Set your cart header font size in px (Ex. 24)"
+msgstr "设置你的车头的字体大小在px(Ex。 24)"
+
+#: backend/templates/views/floating_cart/settings.php:532
+msgid "Set your cart width in px (Ex. 460)"
+msgstr "设置你的车宽px(Ex。 460)"
+
+#: backend/templates/views/pdf_invoice/settings.php:374
+msgid "Set your invoice start number."
+msgstr "设置你的发票开始编号。"
+
+#: backend/templates/views/modules.php:52
+#: backend/templates/views/modules.php:74
+#: backend/templates/views/modules.php:94
+#: backend/templates/views/modules.php:134
+#: backend/templates/views/modules.php:154
+#: backend/templates/views/modules.php:174
+#: backend/templates/views/modules.php:194
+#: backend/templates/views/modules.php:214
+#: backend/templates/views/modules.php:277
+#: backend/templates/views/order_cancel/settings.php:60
+#: backend/templates/views/product_sticky_bar/settings.php:78
+msgid "Settings"
+msgstr "设置"
+
+#: backend/templates/views/pdf_invoice/invoice.php:113
+#: frontend/templates/views/floating_cart/view.php:293
+msgid "Shipping"
+msgstr "运费"
+
+#: backend/templates/views/pdf_invoice/invoice.php:65
+#: backend/templates/views/pdf_invoice/invoice.php:71
+#: backend/templates/views/pdf_invoice/settings.php:527
+#: backend/templates/views/pdf_invoice/shipping_label.php:57
+msgid "Shipping Address"
+msgstr "送货的地址"
+
+#: backend/templates/views/address_book/settings.php:190
+msgid "Shipping Address Book Empty Message"
+msgstr "送货的地址簿的空消息"
+
+#: backend/templates/views/address_book/settings.php:157
+msgid "Shipping Address Book Headline"
+msgstr "送货的地址簿的标题"
+
+#: backend/templates/views/address_book/settings.php:113
+msgid "Shipping Address Field on Checkout?"
+msgstr "送货的地址场上结账？"
+
+#: backend/templates/views/shipping_bar/settings.php:229
+msgid ""
+"Shipping Alert: Add {missing_amount} for Free Shipping (Min. order: "
+"{minimum_order}, Current total: {cart_total})."
+msgstr ""
+
+#: backend/templates/views/pdf_invoice/settings.php:675
+msgid "Shipping Date"
+msgstr "装运日期"
+
+#: backend/templates/views/pdf_invoice/shipping_label.php:13
+msgid "Shipping Date:"
+msgstr "装运日期:"
+
+#: backend/templates/views/pdf_invoice/settings.php:597
+msgid "Shipping Label Customization"
+msgstr "运送的定制标签"
+
+#: backend/templates/views/pdf_invoice/invoice.php:70
+#: backend/templates/views/pdf_invoice/shipping_label.php:56
+msgid "Shipping to Name"
+msgstr "送货的名字"
+
+#: backend/templates/views/pdf_invoice/invoice.php:30
+#: backend/templates/views/pdf_invoice/shipping_label.php:37
+msgid "Shop Address"
+msgstr "店的地址"
+
+#: backend/templates/views/pdf_invoice/settings.php:188
+msgid "Shop Address (Sender Details)"
+msgstr "店的地址(发送的详细信息)"
+
+#: backend/templates/views/pdf_invoice/settings.php:150
+msgid "Shop Info"
+msgstr "店里的信息"
+
+#: backend/templates/views/pdf_invoice/settings.php:163
+#: backend/templates/views/pdf_invoice/settings.php:430
+#: backend/templates/views/pdf_invoice/settings.php:615
+msgid "Shop Logo"
+msgstr "商店的标识"
+
+#: backend/templates/views/pdf_invoice/settings.php:154
+msgid "Shop Name"
+msgstr "店名字"
+
+#: backend/templates/views/product_filter/settings.php:704
+msgid "Show 0 Star Rating?"
+msgstr "显示0星级的评价?"
+
+#: backend/templates/views/product_filter/settings.php:691
+msgid "Show 1 Star Rating?"
+msgstr "显示1星级的评价?"
+
+#: backend/templates/views/product_filter/settings.php:678
+msgid "Show 2 Star Rating?"
+msgstr "显示2星级的评价？"
+
+#: backend/templates/views/product_filter/settings.php:665
+msgid "Show 3 Star Rating?"
+msgstr "显示3星级的评价？"
+
+#: backend/templates/views/product_filter/settings.php:652
+msgid "Show 4 Star Rating?"
+msgstr "显示4星级的评价?"
+
+#: backend/templates/views/product_filter/settings.php:639
+msgid "Show 5 Star Rating?"
+msgstr "显示的5星级的评价?"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:53
+#: backend/templates/views/order_cancel/settings.php:96
+#: backend/templates/views/url_coupon/settings.php:42
+msgid "Show all types"
+msgstr "显示所有类型"
+
+#: backend/templates/views/floating_cart/settings.php:386
+msgid "Show Apply Coupon Option"
+msgstr "显示使用优惠券的选择"
+
+#: backend/templates/views/product_sticky_bar/settings.php:160
+msgid ""
+"Show Bar after the user scrolls given pixels on the product page. Only works "
+"when \"Scroll Pixels\" option is enabled. Default 180px."
+msgstr "显示酒吧后用户滚动给予素在产品页。 只有当\"滚动像素\"选项，启用。 默认180px."
+
+#: backend/templates/views/floating_cart/settings.php:220
+msgid "Show Basket Icon"
+msgstr "显示篮的图标"
+
+#: backend/templates/views/product_filter/settings.php:181
+msgid "Show Category Filter?"
+msgstr "显示类别的过滤器？"
+
+#: backend/templates/views/floating_cart/settings.php:233
+msgid "Show Close Icon"
+msgstr "显示附近的图标"
+
+#: backend/templates/views/floating_cart/settings.php:352
+msgid "Show Discount Amount"
+msgstr "显示的折扣量"
+
+#: backend/templates/views/shipping_bar/settings.php:182
+msgid "Show in Cart Subtotal Area"
+msgstr "显示在车小计的区域"
+
+#: backend/templates/views/shipping_bar/settings.php:193
+msgid "Show in Checkout Subtotal Area"
+msgstr "显示在结帐分类汇总区域"
+
+#: backend/templates/views/product_sticky_bar/settings.php:106
+msgid "Show on Desktop"
+msgstr "显示在桌面上"
+
+#: backend/templates/views/product_sticky_bar/settings.php:116
+msgid "Show on Mobile"
+msgstr "显示在移动"
+
+#: backend/templates/views/product_sticky_bar/settings.php:144
+msgid "Show Only After Scroll"
+msgstr "显示只有在滚动"
+
+#: backend/templates/views/pdf_invoice/settings.php:354
+msgid "Show Order Number as Invoice Number"
+msgstr "显示了数字为发票编号"
+
+#: backend/templates/views/product_filter/settings.php:157
+msgid "Show Price Filter"
+msgstr "显示的价格的过滤器"
+
+#: backend/templates/views/floating_cart/settings.php:252
+#: backend/templates/views/product_sticky_bar/settings.php:231
+msgid "Show Product Image"
+msgstr "展品的图像"
+
+#: backend/templates/views/product_sticky_bar/settings.php:293
+msgid "Show product image shape (Default: Square)"
+msgstr "展品的图像形状(默认方)"
+
+#: backend/templates/views/floating_cart/settings.php:263
+msgid "Show Product Name"
+msgstr "展品名称"
+
+#: backend/templates/views/floating_cart/settings.php:287
+msgid "Show Product Price Total"
+msgstr "展品价格总计"
+
+#: backend/templates/views/product_sticky_bar/settings.php:167
+msgid "Show Product Review"
+msgstr "展品审查"
+
+#: backend/templates/views/product_sticky_bar/settings.php:180
+msgid "Show Product Review Count"
+msgstr "展品审查计数"
+
+#: backend/templates/views/floating_cart/settings.php:274
+msgid "Show Product Unit Price"
+msgstr "显示的产品单元价格"
+
+#: backend/templates/views/shipping_bar/settings.php:287
+msgid "Show progress bar with free shipping bar."
+msgstr "显示进展酒吧有免费送货吧。"
+
+#: backend/templates/views/product_filter/settings.php:169
+msgid "Show Rating Filter"
+msgstr "显示的评价过滤器"
+
+#: backend/templates/views/product_filter/settings.php:146
+msgid "Show Search Filter"
+msgstr "显示搜寻过滤器"
+
+#: backend/templates/views/floating_cart/settings.php:364
+msgid "Show Shipping Amount?"
+msgstr "显示运费的金额？"
+
+#: backend/templates/views/product_sticky_bar/settings.php:149
+msgid "Show sticky bar only when the user scrolls down on the product page"
+msgstr "显示粘吧只有当用户滚动下在产品上的页面"
+
+#: backend/templates/views/product_filter/settings.php:193
+msgid "Show Stock Status Filter"
+msgstr "显示库存状态的过滤器"
+
+#: backend/templates/views/floating_cart/settings.php:341
+msgid "Show Subtotal Number"
+msgstr "显示小计数"
+
+#: backend/templates/views/floating_cart/settings.php:375
+msgid "Show Total Cart Number"
+msgstr "显示总的车号"
+
+#: backend/templates/views/product_sticky_bar/settings.php:172
+msgid "Show/Hide product review on sticky bar."
+msgstr "显示出隐藏品审查上粘吧。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:111
+msgid "Show/Hide sticky bar on Desktop."
+msgstr "显示出隐藏的粘酒吧的桌面上。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:121
+msgid "Show/Hide sticky bar on mobile."
+msgstr "显示出隐藏的粘条上移动。"
+
+#: backend/templates/views/floating_cart/settings.php:391
+msgid "Show/Hide the apply coupon option on the cart menu."
+msgstr "显示出隐藏的使用优惠券的选择对购物单。"
+
+#: backend/templates/views/floating_cart/settings.php:358
+msgid "Show/Hide the discount amount on the cart menu."
+msgstr "显示出隐藏的优惠金额上车菜单。"
+
+#: backend/templates/views/floating_cart/settings.php:257
+msgid "Show/Hide the product image on the cart menu."
+msgstr "显示出隐藏的图像产品在购物车上的菜单。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:236
+msgid "Show/Hide the product image on the sticky bar."
+msgstr "显示出隐藏的图像产品的粘性的酒吧。"
+
+#: backend/templates/views/floating_cart/settings.php:268
+msgid "Show/Hide the product name on the cart menu."
+msgstr "显示出隐藏的产品名称在车上的菜单。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:214
+msgid "Show/Hide the product quantity update option on the sticky bar."
+msgstr "显示出隐藏的产品数量更新的选择上粘吧。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:185
+msgid "Show/Hide the product review count on the sticky bar."
+msgstr "显示出隐藏的产品的审计上粘吧。"
+
+#: backend/templates/views/floating_cart/settings.php:279
+msgid "Show/Hide the product unit price on the cart menu."
+msgstr "显示出隐藏的产品单元价格上车菜单。"
+
+#: backend/templates/views/floating_cart/settings.php:314
+msgid "Show/Hide the quantity update option on the cart menu."
+msgstr "显示出隐藏的数量的更新选项在购物车上的菜单。"
+
+#: backend/templates/views/floating_cart/settings.php:380
+msgid "Show/Hide the total cart number on the cart menu."
+msgstr "显示出隐藏的总车上的号码的车菜单。"
+
+#: backend/templates/views/pdf_invoice/settings.php:310
+msgid "Show/Hide VAT & SSN on the checkout page."
+msgstr "显示出隐藏的增值税&SSN在结帐页。"
+
+#: backend/templates/views/pdf_invoice/invoice.php:86
+msgid "SKU"
+msgstr "SKU"
+
+#: backend/templates/views/floating_cart/settings.php:843
+#: backend/templates/views/product_sticky_bar/settings.php:291
+msgid "Square"
+msgstr "广场"
+
+#: backend/templates/views/pdf_invoice/invoice.php:14
+msgid "SSN:"
+msgstr "SSN:"
+
+#: backend/templates/views/order_cancel/settings.php:120
+msgid "Status"
+msgstr "状态"
+
+#: backend/templates/views/product_sticky_bar/settings.php:127
+msgid "Sticky Bar Position"
+msgstr "粘条的位置"
+
+#: backend/templates/views/product_filter/settings.php:128
+msgid "Stock Filter"
+msgstr "股票的过滤器"
+
+#: backend/templates/views/product_filter/settings.php:814
+msgid "Stock Filter Settings"
+msgstr "股票的过滤设置"
+
+#: backend/templates/views/product_filter/settings.php:16
+msgid "Stock Out"
+msgstr "股票了"
+
+#: backend/templates/views/product_filter/settings.php:869
+msgid "Stock Status Font Color"
+msgstr "库存状况的字体的彩色"
+
+#: backend/templates/views/product_sticky_bar/settings.php:81
+#: backend/templates/views/shipping_bar/settings.php:93
+#: backend/templates/views/shipping_bar/settings.php:200
+msgid "Style"
+msgstr "风格"
+
+#: backend/templates/views/address_book/settings.php:72
+#: backend/templates/views/order_cancel/settings.php:61
+msgid "Styles"
+msgstr "风格"
+
+#: backend/templates/views/pdf_invoice/invoice.php:112
+msgid "Subtotal"
+msgstr "小计"
+
+#: backend/templates/views/floating_cart/settings.php:457
+msgid "Subtotal Text"
+msgstr "小计的文本"
+
+#: backend/templates/views/pdf_invoice/settings.php:387
+msgid "Suffix"
+msgstr "缀"
+
+#: backend/templates/views/one_click_checkout/settings.php:190
+msgid "This text will be shown inside add to cart button."
+msgstr "这一文本将被显示里面添加到车按钮。"
+
+#: backend/templates/views/one_click_checkout/settings.php:206
+msgid ""
+"This text will be shown on archive page for the product when the product is "
+"out of stock, leave blank if you want to use default text."
+msgstr "这一文本将被显示存档网页产品时，该产品是股票，保留空白的如果你想使用默认的案文。"
+
+#: backend/templates/views/one_click_checkout/settings.php:198
+msgid ""
+"This text will be shown on the archive page for the variable product, leave "
+"blank if you want to use default text."
+msgstr "这一文本将被显示存档网页变量的产品，留下的空白如果你想使用默认的案文。"
+
+#: backend/templates/views/pdf_invoice/shipping_label.php:49
+msgid "To"
+msgstr "要"
+
+#: backend/templates/views/pdf_invoice/settings.php:639
+msgid "To Address"
+msgstr "到地址"
+
+#: backend/templates/views/pdf_invoice/settings.php:136
+msgid ""
+"To deactivate the shipping label, simply turn it off. If you need a shipping "
+"label instead of a packing slip, feel free to turn it on."
+msgstr "到禁运的标签，只是将其关闭。 如果你需要一个运输标签，而不是一个装箱单、随时打开它。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:133
+msgid "Top"
+msgstr "顶部"
+
+#: backend/templates/views/pdf_invoice/invoice.php:130
+msgid "Total"
+msgstr "总"
+
+#: backend/templates/views/floating_cart/settings.php:467
+msgid "Total Amount Text"
+msgstr "总量的文本"
+
+#: backend/templates/views/coupon_generator/settings.php:35
+msgid "Total number of coupons"
+msgstr "总数量的优惠券"
+
+#: backend/templates/views/pdf_invoice/invoice.php:90
+msgid "TOTAL PRICE"
+msgstr "总的价格"
+
+#: backend/templates/views/floating_cart/settings.php:226
+msgid "Turn off basket icon in cart header if not needed."
+msgstr "关掉篮的图标在车头，如果没有必要的。"
+
+#: backend/templates/views/one_click_checkout/settings.php:154
+msgid "Turn off the \"Keep Shopping\" button."
+msgstr "关闭的\"保留的购物\"按钮。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:248
+msgid "Turn off the sticky bar for out-of-stock products."
+msgstr "关闭粘酒吧的股票产品。"
+
+#: backend/templates/views/one_click_checkout/settings.php:224
+msgid "Turn on if you want Buy Now button on product page."
+msgstr "打开如果你想买现在按钮上的产品页。"
+
+#: backend/templates/views/shipping_bar/settings.php:262
+msgid "Turn ON the switch to allow disappear time."
+msgstr "打开开关于允许消失的时间。"
+
+#: backend/templates/views/address_book/settings.php:90
+msgid "Turn ON the switch to enable address book for billing."
+msgstr "打开开关启用的地址簿记帐。"
+
+#: backend/templates/views/address_book/settings.php:98
+msgid "Turn ON the switch to enable address book for shipping."
+msgstr "打开开关启用的地址簿，用于运费。"
+
+#: backend/templates/views/address_book/settings.php:108
+msgid ""
+"Turn ON the switch to enable address field selection for billing on checkout "
+"page."
+msgstr "打开开关启用的地址领域的选择的计费结帐页。"
+
+#: backend/templates/views/address_book/settings.php:116
+msgid ""
+"Turn ON the switch to enable address field selection for shipping on "
+"checkout page."
+msgstr "打开开关启用的地址领域的选择运费结算页。"
+
+#: backend/templates/views/shipping_bar/settings.php:108
+msgid "Turn ON the switch to enable the Shipping Bar."
+msgstr "打开开关使运输条。"
+
+#: backend/templates/views/shipping_bar/settings.php:185
+msgid ""
+"Turn ON the switch to show the free shipping notification in cart page "
+"subtotal area."
+msgstr "打开开关出示免费送货通知在购物车页小计的区域。"
+
+#: backend/templates/views/shipping_bar/settings.php:196
+msgid ""
+"Turn ON the switch to show the free shipping notification in checkout "
+"subtotal area."
+msgstr "打开开关于表明自由运输通知，在结账小计的区域。"
+
+#: backend/templates/views/shipping_bar/settings.php:116
+msgid "Turn ON the switch to show the Shipping Bar on the Desktop Screen."
+msgstr "打开开关，以显示运费酒吧的桌面上的屏幕。"
+
+#: backend/templates/views/shipping_bar/settings.php:124
+msgid "Turn ON the switch to show the Shipping Bar on the Mobile Screen."
+msgstr "打开开关出示运输条上移动的屏幕。"
+
+#: backend/templates/views/one_click_checkout/settings.php:181
+msgid "Turn on to change the button text of add to cart button."
+msgstr "又在改变按钮文本将添加到车按钮。"
+
+#: backend/templates/views/one_click_checkout/settings.php:172
+msgid "Turn on to enable ajax add to cart on single product."
+msgstr "打开以使阿贾克斯添加到车单产品。"
+
+#: backend/templates/views/product_sticky_bar/settings.php:100
+msgid "Turn On/Off the product sticky bar."
+msgstr "开关的产品的粘性的酒吧。"
+
+#: backend/templates/views/order_cancel/settings.php:155
+msgid "Type rules for canceling in the pop-up box (HTML allowed)."
+msgstr "类型的规则消除在弹箱(HTML允许的)。"
+
+#: backend/templates/views/address_book/settings.php:71
+#: backend/templates/views/floating_cart/settings.php:136
+msgid "Typography"
+msgstr "排版"
+
+#: backend/templates/views/address_book/settings.php:125
+#: backend/templates/views/floating_cart/settings.php:400
+msgid "Typography Settings"
+msgstr "排版设置"
+
+#: backend/templates/views/bogo_deal/settings.php:43
+msgid "Untitled Rule"
+msgstr "无题的规则"
+
+#: backend/templates/views/pdf_invoice/settings.php:169
+msgid "Upload"
+msgstr "上传"
+
+#: backend/templates/views/modules.php:107
+#: backend/templates/views/url_coupon/settings.php:14
+msgid "URL Coupon"
+msgstr "URL优惠券"
+
+#: backend/templates/views/coupon_generator/settings.php:178
+msgid "Usage limit per coupon"
+msgstr "使用限制每优惠券"
+
+#: backend/templates/views/coupon_generator/settings.php:186
+msgid "Usage limit per user"
+msgstr "使用限制每户"
+
+#: backend/templates/views/coupon_generator/settings.php:64
+msgid "Usage Limits"
+msgstr "使用限制"
+
+#: backend/templates/views/coupon_generator/settings.php:175
+msgid "Usage limits"
+msgstr "使用限制"
+
+#: backend/templates/views/coupon_generator/settings.php:63
+msgid "Usage Restriction"
+msgstr "使用限制"
+
+#: backend/templates/views/coupon_generator/settings.php:100
+msgid "Usage restriction"
+msgstr "使用限制"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:76
+#: backend/templates/views/url_coupon/settings.php:61
+msgid "Usage/Limit"
+msgstr "使用/限制"
+
+#: backend/templates/views/pdf_invoice/settings.php:494
+msgid "VAT"
+msgstr "增值税"
+
+#: backend/templates/views/pdf_invoice/invoice.php:15
+msgid "VAT:"
+msgstr "增值税："
+
+#: backend/templates/views/floating_cart/settings.php:427
+msgid "View Cart Button"
+msgstr "看车按钮"
+
+#: backend/templates/views/floating_cart/settings.php:498
+msgid "View Cart Button Url"
+msgstr "看车按钮Url"
+
+#: backend/templates/views/floating_cart/settings.php:508
+msgid "View Checkout Button Url"
+msgstr "查结账按钮Url"
+
+#: backend/class-wceazy-admin.php:142
+msgid "View wcEazy documentation"
+msgstr "看wcEazy文件"
+
+#. Author of the plugin
+msgid "wcEazy"
+msgstr "wcEazy"
+
+#: backend/templates/views/one_click_checkout/settings.php:65
+msgid "wceazy"
+msgstr "wceazy"
+
+#: backend/templates/license.php:21
+msgid "wcEazy License Activation"
+msgstr "wcEazy许可激活"
+
+#. Name of the plugin
+#: backend/templates/views/modules.php:6
+#: backend/templates/views/bogo_deal/settings.php:5
+#: backend/templates/views/coupon_generator/settings.php:5
+#: backend/templates/views/order_cancel/settings.php:34
+#: backend/templates/views/pdf_invoice/settings.php:62
+#: backend/templates/views/product_filter/settings.php:80
+#: backend/templates/views/product_sticky_bar/settings.php:48
+#: backend/templates/views/shipping_bar/settings.php:59
+#: backend/templates/views/url_coupon/settings.php:5
+msgid "wcEazy Pro"
+msgstr "wcEazy亲"
+
+#: backend/templates/views/address_book/settings.php:43
+#: backend/templates/views/floating_cart/settings.php:92
+msgid "wcEazy Pro "
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"wcEazy provides multiple WooCommerce extensions in a single package you'll "
+"ever require."
+msgstr "wcEazy提供多吧扩展一个单一包你永远需要。"
+
+#: modules/url_coupon/ModuleUtils.php:29
+#: backend/templates/views/url_coupon/url_coupon_tab.php:44
+msgid "wcEazy URL Coupon"
+msgstr "wcEazy URL优惠券"
+
+#: backend/templates/views/pdf_invoice/settings.php:663
+msgid "Weight"
+msgstr "重量"
+
+#: backend/templates/views/pdf_invoice/shipping_label.php:12
+msgid "Weight:"
+msgstr "重量："
+
+#: backend/templates/views/one_click_checkout/settings.php:157
+msgid ""
+"WooCommerce shows a continue shopping button after a product is added to "
+"cart. With this option, you can disable that link so users replace the text "
+"you want to complete the sentence here"
+msgstr "吧示出了继续购物按钮之后产品被添加到车。 与此选项，可以禁止这一链接，以便用户的文本替换你想要完成这里的句子"
+
+#: backend/templates/views/auto_apply_coupon/settings.php:96
+msgid "Yes"
+msgstr "是的"
+
+#: backend/templates/views/shipping_bar/settings.php:137
+msgid "You must select your shipping zone, if not created please create"
+msgstr "你必须选择你的航运区，如果不创造创建请"
+
+#: backend/templates/license.php:41
+msgid "Your license key expires on"
+msgstr "你的许可证到期"
+
+#: backend/templates/views/pdf_invoice/invoice.php:33
+#: backend/templates/views/pdf_invoice/invoice.php:51
+#: backend/templates/views/pdf_invoice/invoice.php:74
+#: backend/templates/views/pdf_invoice/shipping_label.php:40
+#: backend/templates/views/pdf_invoice/shipping_label.php:60
+msgid "Zip Code"
+msgstr "邮政编码"

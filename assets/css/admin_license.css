@@ -1,0 +1,142 @@
+/* ===============
+Modules Page
+================ */
+
+
+.wceazy_license_header {
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    flex-direction: row;
+    column-gap: 10px;
+    box-shadow: 0 13px 22px -5px rgb(0 0 0 / 6%);
+}
+.wceazy_license_header .wceazy_header_part_left p {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+    position: relative;
+}
+.wceazy_license_header .wceazy_header_part_left p span {
+    position: absolute;
+    top: 0;
+    right: -60px;
+    background: #6E32C9;
+    padding: 0px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+.wceazy_license_header .wceazy_header_part_right a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+
+
+
+
+.wceazy_license_page_title{
+    margin: 0px 50px;
+}
+.wceazy_license_page_title h2{
+    font-size: 30px;
+    line-height: 35px;
+    margin: 25px 0;
+}
+
+
+
+
+
+.wceazy_license_box_container{
+    margin: 30px 50px;
+}
+
+.wceazy_license_box{
+    width: 400px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    margin-right: 5px;
+    border: 1px solid #C1B4FA;
+}
+
+.wceazy_license_box .wceazy_license_box_header{
+    background: #f9f9f9;
+    padding: 14px 25px;
+    border-radius: 9px 9px 0 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #C1B4FA;
+    color: #1d2327;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.wceazy_license_box .wceazy_license_box_body{
+    padding: 14px 25px;
+}
+.wceazy_license_box .wceazy_license_box_body input{
+    display: block;
+    padding: 12px 20px;
+    margin: auto 0;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #C1B4FA;
+    color: #5b5b5bf5 !important;
+    font-size: 15px !important;
+}
+.wceazy_license_box .wceazy_license_box_body button{
+    display: block;
+    margin-top: 15px;
+    background-color: #6E32C9;
+    padding: 10px 30px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.wceazy_license_box .wceazy_license_box_body button:hover {
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px 30px;
+    color: #6E32C9;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+    border: 1px solid #6E32C9;
+    cursor: pointer;
+}
+.wceazy_license_box .wceazy_license_box_body button.loading {
+    background-color: #d3d3d3 !important;
+    cursor: not-allowed !important;
+    color: #7e7575 !important;
+    border: 1px solid #ccc;
+}
+
+
+
+.wceazy_license_box .wceazy_license_box_footer{
+    background: #f9f9f9;
+    border-radius: 0px 0px 9px 9px;
+    border-top: 1px solid #C1B4FA;
+    padding: 14px 25px;
+    margin-top: 15px;
+    color: #1d2327;
+    font-size: 13px;
+    font-weight: 400;
+}
+
