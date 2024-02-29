@@ -138,9 +138,12 @@ if (!class_exists('WcEazyClient')) {
             if ($this->settings->getModuleStatus("product_sticky_bar")) {
                 wp_enqueue_style('wceazy-client-module-product-sticky-bar', WCEAZY_PRO_CSS_DIR . 'product_sticky_bar/client_main.css', array(), WCEAZY_PRO_VERSION);
                 wp_enqueue_script('wceazy-client-module-product-sticky-bar', WCEAZY_PRO_JS_DIR . 'product_sticky_bar/client_main.js', array('jquery'), WCEAZY_PRO_VERSION);
-                wp_localize_script('wceazy-client-module-product-sticky-bar', 'wceazy_client_product_sticky_bar_object', array(
-                    'ajaxurl' => admin_url('admin-ajax.php')
-                )
+                wp_localize_script(
+                    'wceazy-client-module-product-sticky-bar',
+                    'wceazy_client_product_sticky_bar_object',
+                    array(
+                        'ajaxurl' => admin_url('admin-ajax.php')
+                    )
                 );
             }
 
@@ -148,9 +151,12 @@ if (!class_exists('WcEazyClient')) {
             if ($this->settings->getModuleStatus("one_click_checkout")) {
                 wp_enqueue_style('wceazy-client-module-one-click-checkout', WCEAZY_PRO_CSS_DIR . 'one_click_checkout/client_main.css', array(), WCEAZY_PRO_VERSION);
                 wp_enqueue_script('wceazy-client-module-one-click-checkout', WCEAZY_PRO_JS_DIR . 'one_click_checkout/client_main.js', array('jquery'), WCEAZY_PRO_VERSION);
-                wp_localize_script('wceazy-client-module-one-click-checkout', 'wceazy_client_one_click_checkout_object', array(
-                    'ajaxurl' => admin_url('admin-ajax.php')
-                )
+                wp_localize_script(
+                    'wceazy-client-module-one-click-checkout',
+                    'wceazy_client_one_click_checkout_object',
+                    array(
+                        'ajaxurl' => admin_url('admin-ajax.php')
+                    )
                 );
             }
 
@@ -158,9 +164,12 @@ if (!class_exists('WcEazyClient')) {
             if ($this->settings->getModuleStatus("floating_cart")) {
                 wp_enqueue_style('wceazy-client-module-floating-cart', WCEAZY_PRO_CSS_DIR . 'floating_cart/client_main.css', array(), WCEAZY_PRO_VERSION);
                 wp_enqueue_script('wceazy-client-module-floating-cart', WCEAZY_PRO_JS_DIR . 'floating_cart/client_main.js', array('jquery'), WCEAZY_PRO_VERSION);
-                wp_localize_script('wceazy-client-module-floating-cart', 'wceazy_client_floating_cart_object', array(
-                    'ajaxurl' => admin_url('admin-ajax.php')
-                )
+                wp_localize_script(
+                    'wceazy-client-module-floating-cart',
+                    'wceazy_client_floating_cart_object',
+                    array(
+                        'ajaxurl' => admin_url('admin-ajax.php')
+                    )
                 );
             }
 
@@ -168,9 +177,12 @@ if (!class_exists('WcEazyClient')) {
             if ($this->settings->getModuleStatus("shipping_bar")) {
                 wp_enqueue_style('wceazy-client-module-shipping-bar', WCEAZY_PRO_CSS_DIR . 'shipping_bar/client_main.css', array(), WCEAZY_PRO_VERSION);
                 wp_enqueue_script('wceazy-client-module-shipping-bar', WCEAZY_PRO_JS_DIR . 'shipping_bar/client_main.js', array('jquery'), WCEAZY_PRO_VERSION);
-                wp_localize_script('wceazy-client-module-shipping-bar', 'wceazy_client_shipping_bar_object', array(
-                    'ajaxurl' => admin_url('admin-ajax.php')
-                )
+                wp_localize_script(
+                    'wceazy-client-module-shipping-bar',
+                    'wceazy_client_shipping_bar_object',
+                    array(
+                        'ajaxurl' => admin_url('admin-ajax.php')
+                    )
                 );
             }
 
@@ -178,9 +190,12 @@ if (!class_exists('WcEazyClient')) {
             if ($this->settings->getModuleStatus("address_book")) {
                 wp_enqueue_style('wceazy-client-module-address-book', WCEAZY_PRO_CSS_DIR . 'address_book/client_main.css', array(), WCEAZY_PRO_VERSION);
                 wp_enqueue_script('wceazy-client-module-address-book', WCEAZY_PRO_JS_DIR . 'address_book/client_main.js', array('jquery'), WCEAZY_PRO_VERSION);
-                wp_localize_script('wceazy-client-module-address-book', 'wceazy_client_address_book_object', array(
-                    'ajaxurl' => admin_url('admin-ajax.php')
-                )
+                wp_localize_script(
+                    'wceazy-client-module-address-book',
+                    'wceazy_client_address_book_object',
+                    array(
+                        'ajaxurl' => admin_url('admin-ajax.php')
+                    )
                 );
             }
 
@@ -188,9 +203,12 @@ if (!class_exists('WcEazyClient')) {
             if ($this->settings->getModuleStatus("product_filter")) {
                 wp_enqueue_style('wceazy-client-module-product-filter', WCEAZY_PRO_CSS_DIR . 'product_filter/client_main.css', array(), WCEAZY_PRO_VERSION);
                 wp_enqueue_script('wceazy-client-module-product-filter', WCEAZY_PRO_JS_DIR . 'product_filter/client_main.js', array('jquery'), WCEAZY_PRO_VERSION);
-                wp_localize_script('wceazy-client-module-product-filter', 'wceazy_client_product_filter_object', array(
-                    'ajaxurl' => admin_url('admin-ajax.php')
-                )
+                wp_localize_script(
+                    'wceazy-client-module-product-filter',
+                    'wceazy_client_product_filter_object',
+                    array(
+                        'ajaxurl' => admin_url('admin-ajax.php')
+                    )
                 );
             }
 
@@ -198,9 +216,12 @@ if (!class_exists('WcEazyClient')) {
             if ($this->settings->getModuleStatus("order_cancel")) {
                 wp_enqueue_style('wceazy-client-module-order-cancel', WCEAZY_PRO_CSS_DIR . 'order_cancel/client_main.css', array(), WCEAZY_PRO_VERSION);
                 wp_enqueue_script('wceazy-client-module-order-cancel', WCEAZY_PRO_JS_DIR . 'order_cancel/client_main.js', array('jquery'), WCEAZY_PRO_VERSION);
-                wp_localize_script('wceazy-client-module-order-cancel', 'wceazy_client_order_cancel_object', array(
-                    'ajaxurl' => admin_url('admin-ajax.php')
-                )
+                wp_localize_script(
+                    'wceazy-client-module-order-cancel',
+                    'wceazy_client_order_cancel_object',
+                    array(
+                        'ajaxurl' => admin_url('admin-ajax.php')
+                    )
                 );
             }
 
