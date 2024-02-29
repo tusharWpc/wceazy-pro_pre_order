@@ -257,8 +257,31 @@
             </div>
         </div>
 
-
         <div class="wceazy_module_item" data-slug="shipping_bar">
+            <div class="wceazy_module_logo">
+                <img src="<?php echo esc_url(WCEAZY_PRO_IMG_DIR . 'modules/shipping_bar/icon.svg'); ?>" height="100" />
+            </div>
+            <div class="wceazy_module_details">
+                <h3>
+                    <?php esc_html_e('PDF Invoice & Packing Slips', 'wceazy'); ?>
+                </h3>
+                <div class="wceazy_module_action">
+                    <label class="toggle_switch">
+                        <input type="checkbox" onchange="wceazy_update_module_status(this)" <?php echo ($this->settings->getModuleStatus("shipping_bar") == 1 ? "checked" : ""); ?>>
+                        <span class="slider round"></span>
+                    </label>
+                    <div class="settings_btn <?php echo ($this->settings->getModuleStatus("shipping_bar") == 1 ? "active" : ""); ?>"
+                        onclick="wceazy_start_module_settings(`<?php echo esc_url(WCEAZY_PRO_URL); ?>`, this)">
+                        <?php esc_html_e('Settings', 'wceazy'); ?>
+                    </div>
+                    <a class="wceazy_module_docs" target="_blank" href="<?php echo WCEAZY_PRO_DOCS_PAGE; ?>">
+                        <?php esc_html_e('Documentation', 'wceazy'); ?>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="wceazy_module_item" data-slug="shipping_bar/">
             <div class="wceazy_module_logo">
                 <img src="<?php echo esc_url(WCEAZY_PRO_IMG_DIR . 'modules/shipping_bar/icon.svg'); ?>" height="100" />
             </div>
@@ -280,7 +303,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 
@@ -298,11 +321,11 @@
                     </label>
 
                     <div class="settings_btn <?php echo ($this->settings->getModuleStatus("pre_order") == 1 ? "active" : ""); ?>"
-                        onclick="wceazy_start_module_settings(`<?php echo esc_url(WCEAZY_URL); ?>`, this)">
+                        onclick="wceazy_start_module_settings(`<?php echo esc_url(WCEAZY_PRO_URL); ?>`, this)">
                         <?php esc_html_e('Settings', 'wceazy'); ?>
                     </div>
                     <a class="wceazy_module_docs" target="_blank"
-                        href="<?php echo WCEAZY_DOCS_PAGE; ?>"><?php esc_html_e('Documentation', 'wceazy'); ?></a>
+                        href="<?php echo WCEAZY_PRO_DOCS_PAGE; ?>"><?php esc_html_e('Documentation', 'wceazy'); ?></a>
                 </div>
             </div>
         </div>

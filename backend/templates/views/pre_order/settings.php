@@ -72,12 +72,7 @@ $wceazy_po_progress_border_radius = isset($wceazy_po_settings["progress_border_r
             <p>wcEazy <span>
                     <?php echo esc_attr(WCEAZY_VERSION); ?>
                 </span></p>
-        </div>
-        <div class="wceazy_header_part_right">
-            <a class="wceazy_get_pro" target="_blank" href="<?php echo WCEAZY_GET_PRO_URL; ?>">
-                <?php esc_html_e('GET PRO', 'wceazy'); ?>
-            </a>
-        </div>
+        </div> 
     </div> 
 
     <div class="wceazy_pre_order_page_title">

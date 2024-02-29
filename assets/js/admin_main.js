@@ -72,7 +72,9 @@ function wceazy_start_module_settings(host, view) {
         case "shipping_bar":
             if (typeof wceazy_shipping_bar_init !== "undefined") {
                 wceazy_shipping_bar_init(host)
-            } case "pre_order":
+            }
+            break;
+            case "pre_order":
             if (typeof wceazy_pre_order_init !== "undefined") {
                 wceazy_pre_order_init(host)
             }
