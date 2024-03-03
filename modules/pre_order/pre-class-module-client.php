@@ -26,7 +26,7 @@ if (!class_exists('WcEazyPreOrderClient')) {
             add_action('woocommerce_before_calculate_totals', array($this->utils, 'apply_preorder_discount_to_cart'), 1100, 1);
             add_action('woocommerce_product_options_general_product_data', array($this->utils, 'add_preorder_fields'));
             add_action('admin_footer', array($this->utils, 'show_hide_preorder_fields'));
-            add_action('woocommerce_process_product_meta', array($this->utils, 'save_preorder_fields'));
+            // add_action('woocommerce_process_product_meta', array($this->utils, 'save_preorder_fields'));
 
             // Hook to modify single product add to cart text based on '_is_pre_order' meta
             add_action('woocommerce_single_product_summary', array($this, 'modify_add_to_cart_text'), 30);
