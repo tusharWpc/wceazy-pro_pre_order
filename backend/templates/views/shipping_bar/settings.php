@@ -307,14 +307,11 @@ $wceazy_sb_progress_border_radius = isset($wceazy_sb_settings["progress_border_r
 
                         <div class="wceazy_shipping_bar_field_group wceazy_shipping_bar_zero_order_amount_msg">
                             <label for="coupon_generator_coupon_amount">
-                                <?php esc_html_e('Message on Zero Order Amount', 'wceazy'); ?> <span
-                                    style="color: #FF521D;">
-                                    <?php esc_html_e('(Pro)', 'wceazy'); ?>
-                                </span>
+                                <?php esc_html_e('Message on Zero Order Amount', 'wceazy'); ?>
+
                             </label>
                             <div class="field_with_msg_container">
-                                <textarea disabled class="wceazy_shipping_bar_textarea_field"
-                                    rows="3"><?php echo esc_attr($wceazy_sb_zero_order_amount_msg); ?></textarea>
+                                <textarea disabled class="wceazy_shipping_bar_textarea_field" rows="3"><?php echo esc_attr($wceazy_sb_zero_order_amount_msg); ?></textarea>
                                 <small>
                                     <?php esc_html_e('"Empty Cart in Shipping Zone: Add items to qualify for Free Shipping ({minimum_order})."', 'wceazy'); ?>
                                 </small>

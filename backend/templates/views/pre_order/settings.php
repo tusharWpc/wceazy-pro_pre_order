@@ -380,7 +380,6 @@ $wceazy_po_progress_border_radius = isset($wceazy_po_settings["progress_border_r
                         </h1>
                     </div>
                     <div class="tab_body_form">
-
                         <div class="wceazy_pre_order_field_group wceazy_pre_order_zero_order_amount_msg">
                             <label for="coupon_generator_coupon_amount">
                                 <?php esc_html_e('Message on Zero Order Amount', 'wceazy'); ?>
