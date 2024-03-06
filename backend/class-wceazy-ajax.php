@@ -195,12 +195,13 @@ if (!class_exists('WcEazyAdminAjax')) {
             wp_die();
         }
 
-        // pre order
+        /* Shipping Bar */
         public function wceazy_pre_order_save()
         {
             include_once WCEAZY_PRO_PATH . "backend/api/pre_order/save.php";
             wp_die();
         }
+
 
         /* Address Book */
         public function wceazy_address_book_save()

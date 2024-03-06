@@ -74,11 +74,6 @@ function wceazy_start_module_settings(host, view) {
                 wceazy_shipping_bar_init(host)
             }
             break;
-            case "pre_order":
-            if (typeof wceazy_pre_order_init !== "undefined") {
-                wceazy_pre_order_init(host)
-            }
-            break;
         case "address_book":
             if (typeof wceazy_address_book_init !== "undefined") {
                 wceazy_address_book_init(host)
@@ -92,6 +87,11 @@ function wceazy_start_module_settings(host, view) {
         case "order_cancel":
             if (typeof wceazy_order_cancel_init !== "undefined") {
                 wceazy_order_cancel_init(host)
+            }
+            break;
+        case "pre_order":
+            if (typeof wceazy_pre_order_init !== "undefined") {
+                wceazy_pre_order_init(host)
             }
             break;
     }

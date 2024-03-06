@@ -8,12 +8,31 @@ if (!isset($_SESSION)) {
     session_start();
 }
 
+
+$wceazy_po_pre_order_settings = get_option('wceazy_po_pre_order_settings', False);
+$wceazy_po_settings = $wceazy_po_pre_order_settings ? json_decode($wceazy_po_pre_order_settings, true) : array();
+
+// echo "<pre>";
+// var_dump($wceazy_po_settings);
+// echo "</pre>"; 
+
+$wceazy_po_pre_order_btn_text = isset($wceazy_po_settings["pre_order_btn_text"]) ? $wceazy_po_settings["pre_order_btn_text"] : "PreOrder Now!";
+
+$wceazy_po_pre_order_admin_email = isset($wceazy_po_settings["pre_order_admin_email"]) ? $wceazy_po_settings["pre_order_admin_email"] : "Default Admin Confermation";
+
+$wceazy_po_pre_order_custom_email = isset($wceazy_po_settings["pre_order_custom_email"]) ? $wceazy_po_settings["pre_order_custom_email"] : "setting PreOrder Confermation mail";
+
+
+echo "<pre>";
+var_dump($wceazy_po_pre_order_custom_email);
+echo "</pre>";
+
 if (!class_exists('WcEazyPreOrderUtils')) {
     class WcEazyPreOrderUtils
     {
         public $base_admin;
         public $module_admin;
-        public $wceazy_po_pre_order_btn_text; // Define the variable within the class
+        // public $wceazy_po_pre_order_btn_text; // Define the variable within the class
         public $wceazy_po_enable_pre_order; // Define the variable within the class
 
         // Constructor to initialize class properties
@@ -26,11 +45,106 @@ if (!class_exists('WcEazyPreOrderUtils')) {
             // Removed session_start() here as it's already started at the beginning of the file
         }
 
+
+        // Send pre-order confirmation email to customer
+        public function send_preorder_confirmation_email($order_id, $order)
+        {
+            // Check if the order contains pre-order products
+            $preorder_products = false;
+            foreach ($order->get_items() as $item) {
+                if ('yes' === get_post_meta($item->get_product_id(), '_is_pre_order', true)) {
+                    $preorder_products = true;
+                    break;
+                }
+            }
+
+            if ($preorder_products) {
+
+                $wceazy_po_pre_order_settings = get_option('wceazy_po_pre_order_settings', False);
+                $wceazy_po_settings = $wceazy_po_pre_order_settings ? json_decode($wceazy_po_pre_order_settings, true) : array();
+
+                $wceazy_po_pre_order_custom_email = isset($wceazy_po_settings["pre_order_custom_email"]) ? $wceazy_po_settings["pre_order_custom_email"] : "setting PreOrder Confermation mail";
+
+                // Get customer email
+                $email = $order->get_billing_email();
+
+                // Email subject
+                $subject = __('Pre-order Confirmation', 'wceazy');
+
+                // Email body 
+                $message .= __('Admin email: ', 'wceazy') . $wceazy_po_pre_order_custom_email . '<br>';
+
+                // $message = __('Thank you for placing a pre-order. Your order will be processed as soon as the product becomes available.', 'wceazy');
+
+                // Send email
+                wp_mail($email, $subject, $message);
+            }
+        }
+
+
+
+        // Send pre-order purchase notification email to admin
+        public function send_preorder_purchase_notification($order_id, $order)
+        {
+            // Check if the order contains pre-order products
+            $preorder_products = false;
+            foreach ($order->get_items() as $item) {
+                if ('yes' === get_post_meta($item->get_product_id(), '_is_pre_order', true)) {
+                    $preorder_products = true;
+                    break;
+                }
+            }
+
+            if ($preorder_products) {
+                // Get admin email
+                $admin_email = get_option('admin_email');
+
+                // Get the dynamic admin email
+                $wceazy_po_pre_order_settings = get_option('wceazy_po_pre_order_settings', false);
+                $wceazy_po_settings = $wceazy_po_pre_order_settings ? json_decode($wceazy_po_pre_order_settings, true) : array();
+                $wceazy_po_pre_order_admin_email = isset($wceazy_po_settings["pre_order_admin_email"]) ? $wceazy_po_settings["pre_order_admin_email"] : "Default Admin Confermation";
+
+                // Email subject
+                $subject = __('Pre-order Product Purchase Notification', 'wceazy');
+
+                // Email body
+                $message = '<html>';
+                $message .= '<head>';
+                $message .= '<style>';
+                $message .= 'h1 {color: #007bff; font-size: 28px; margin-bottom: 20px;}';
+                $message .= 'p {color: #555; font-size: 18px; margin-bottom: 10px;}';
+                $message .= '</style>';
+                $message .= '</head>';
+                $message .= '<body>';
+                $message .= sprintf('<h1>%s</h1>', __('Pre-order Product Purchase Notification', 'wceazy'));
+                $message .= '<p>';
+                $message .= __('Dear Admin,', 'wceazy') . '<br>';
+                $message .= __('Admin email: ', 'wceazy') . $wceazy_po_pre_order_admin_email . '<br>'; // Include dynamic admin email here
+                $message .= __('Details of the order are as follows:', 'wceazy') . '<br>';
+                $message .= __('Order ID:', 'wceazy') . ' ' . $order_id . '<br>';
+                $message .= __('Please take necessary actions accordingly.', 'wceazy') . '<br>';
+                $message .= '</p>';
+                $message .= '</body>';
+                $message .= '</html>';
+
+                // Send email to admin
+                add_filter('wp_mail_content_type', function () {
+                    return 'text/html';
+                });
+                wp_mail($admin_email, $subject, $message);
+            }
+        }
+
+
+
+
         // Function to save settings data
         public function saveSettings($post_data)
         {
+
             if (!empty($post_data)) {
                 update_option('wceazy_pre_order_settings', json_encode($post_data));
+                //    echo"<h1>hello hi</h1>";
             }
         }
 
@@ -178,8 +292,6 @@ if (!class_exists('WcEazyPreOrderUtils')) {
         }
 
 
-
-
         // Custom method to check if a product belongs to a pre-order category
         public function is_pre_order_category($product)
         {
@@ -216,8 +328,20 @@ if (!class_exists('WcEazyPreOrderUtils')) {
                     $is_pre_order = get_post_meta($product_id, '_is_pre_order', true);
 
                     if ($is_pre_order === 'yes') {
+
+                        $wceazy_po_pre_order_settings = get_option('wceazy_po_pre_order_settings', False);
+                        $wceazy_po_settings = $wceazy_po_pre_order_settings ? json_decode($wceazy_po_pre_order_settings, true) : array();
+
+                        // echo "<pre>";
+                        // var_dump($wceazy_po_settings);
+                        // echo "</pre>";
+
+
+                        $wceazy_po_pre_order_btn_text = isset($wceazy_po_settings["pre_order_btn_text"]) ? $wceazy_po_settings["pre_order_btn_text"] : "PreOrder Now!";
+
+
                         // Access the dynamic button text here
-                        $dynamic_button_text = $this->wceazy_po_pre_order_btn_text;
+                        $dynamic_button_text = $wceazy_po_pre_order_btn_text;
 
                         // Set the default text
                         $text = __('Pre-order Now', 'wceazy');
@@ -422,32 +546,6 @@ if (!class_exists('WcEazyPreOrderUtils')) {
             }
         }
 
-        // Send pre-order confirmation email to customer
-        public function send_preorder_confirmation_email($order_id, $order)
-        {
-            // Check if the order contains pre-order products
-            $preorder_products = false;
-            foreach ($order->get_items() as $item) {
-                if ('yes' === get_post_meta($item->get_product_id(), '_is_pre_order', true)) {
-                    $preorder_products = true;
-                    break;
-                }
-            }
-
-            if ($preorder_products) {
-                // Get customer email
-                $email = $order->get_billing_email();
-
-                // Email subject
-                $subject = __('Pre-order Confirmation', 'wceazy');
-
-                // Email body
-                $message = __('Thank you for placing a pre-order. Your order will be processed as soon as the product becomes available.', 'wceazy');
-
-                // Send email
-                wp_mail($email, $subject, $message);
-            }
-        }
 
 
         // Schedule a task to check pre-order availability periodically
@@ -509,52 +607,7 @@ if (!class_exists('WcEazyPreOrderUtils')) {
             }
         }
 
-        // Send pre-order purchase notification email to admin
-        public function send_preorder_purchase_notification($order_id, $order)
-        {
-            // Check if the order contains pre-order products
-            $preorder_products = false;
-            foreach ($order->get_items() as $item) {
-                if ('yes' === get_post_meta($item->get_product_id(), '_is_pre_order', true)) {
-                    $preorder_products = true;
-                    break;
-                }
-            }
 
-            if ($preorder_products) {
-                // Get admin email
-                $admin_email = get_option('admin_email');
-
-                // Email subject
-                $subject = __('Pre-order Product Purchase Notification', 'wceazy');
-
-                // Email body
-                $message = '<html>';
-                $message .= '<head>';
-                $message .= '<style>';
-                $message .= 'h1 {color: #007bff; font-size: 28px; margin-bottom: 20px;}';
-                $message .= 'p {color: #555; font-size: 18px; margin-bottom: 10px;}';
-                $message .= '</style>';
-                $message .= '</head>';
-                $message .= '<body>';
-                $message .= sprintf('<h1>%s</h1>', __('Pre-order Product Purchase Notification', 'wceazy'));
-                $message .= '<p>';
-                $message .= __('Dear Admin,', 'wceazy') . '<br>';
-                $message .= __('This is to inform you that a user has just purchased a pre-order product.', 'wceazy') . '<br>';
-                $message .= __('Details of the order are as follows:', 'wceazy') . '<br>';
-                $message .= __('Order ID:', 'wceazy') . ' ' . $order_id . '<br>';
-                $message .= __('Please take necessary actions accordingly.', 'wceazy') . '<br>';
-                $message .= '</p>';
-                $message .= '</body>';
-                $message .= '</html>';
-
-                // Send email to admin
-                add_filter('wp_mail_content_type', function () {
-                    return 'text/html';
-                });
-                wp_mail($admin_email, $subject, $message);
-            }
-        }
 
 
 

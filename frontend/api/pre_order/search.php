@@ -3,27 +3,28 @@
 $wceazy_pre_order_settings = get_option('wceazy_pre_order_settings', False);
 $wceazy_po_settings = $wceazy_pre_order_settings ? json_decode($wceazy_pre_order_settings, true) : array();
 
-// echo "<pre>";
+// echo"<pre>";
 // var_dump($wceazy_po_settings);
-// echo "</pre>";
+// echo"</pre>";
 
 
 $wceazy_po_pre_order_btn_text = isset($wceazy_po_settings["pre_order_btn_text"]) ? $wceazy_po_settings["pre_order_btn_text"] : "PreOrder Now!";
 
-// echo "<pre>";
+// echo"<pre>";
 // var_dump($wceazy_po_pre_order_btn_text);
+// echo"</pre>";
+
+
+
+
+$wceazy_po_pre_order_confirmation_email = isset($wceazy_po_settings["pre_order_confirmation_email"]) ? $wceazy_po_settings["pre_order_confirmation_email"] : "S Confirmation Mail";
+
+
+// echo "<pre>";
+// var_dump($wceazy_po_pre_order_confirmation_email);
 // echo "</pre>";
 
 
-
-// $wceazy_po_product_per_page = isset($wceazy_po_settings["product_per_page"]) ? $wceazy_po_settings["product_per_page"] : "15";
-// $wceazy_po_add_to_cart_btn_text = isset($wceazy_po_settings["add_to_cart_btn_text"]) ? $wceazy_po_settings["add_to_cart_btn_text"] : "Add to Cart";
-
-
-// $wceazy_po_select_options_btn_text = isset($wceazy_po_settings["select_options_btn_text"]) ? $wceazy_po_settings["select_options_btn_text"] : "Select Options";
-// $wceazy_po_stock_out_btn_text = isset($wceazy_po_settings["stock_out_btn_text"]) ? $wceazy_po_settings["stock_out_btn_text"] : "Stock Out";
-// $wceazy_po_prev_btn_text = isset($wceazy_po_settings["prev_btn_text"]) ? $wceazy_po_settings["prev_btn_text"] : "Previous";
-// $wceazy_po_next_btn_text = isset($wceazy_po_settings["next_btn_text"]) ? $wceazy_po_settings["next_btn_text"] : "Next";
 
 
 $products = array();

@@ -145,70 +145,67 @@ function wceazy_pre_order_tab_init() {
 
 
 function wceazy_pre_order_save() {
-    jQuery('.wceazy_pre_order_bottom_button_section button').text('Please Wait..');
-    jQuery('.wceazy_pre_order_bottom_button_section button').prop('disabled', true);
-    let jQuerypostData = {
-
-
-        'enable_pre_order': jQuery(".wceazy_pre_order_enable_pre_order input[type='checkbox']:checked").length > 0 ? "yes" : "no",
-
-        'pre_order_btn_text': jQuery(".wceazy_pre_order_btn_text input[type='text']").val(),
-
-        'display_desktop': jQuery(".wceazy_pre_order_display_desktop input[type='checkbox']:checked").length > 0 ? "yes" : "no",
-        'display_mobile': jQuery(".wceazy_pre_order_display_mobile input[type='checkbox']:checked").length > 0 ? "yes" : "no",
-        'shipping_zone': jQuery(".wceazy_pre_order_shipping_zone select").val(), 
-        
-
-        'show_in_cart': jQuery(".wceazy_pre_order_show_in_cart input[type='checkbox']:checked").length > 0 ? "yes" : "no",
-        'position_cart_subtotal': jQuery(".wceazy_pre_order_position_cart_subtotal select").val(),
-        'show_in_checkout': jQuery(".wceazy_pre_order_show_in_checkout input[type='checkbox']:checked").length > 0 ? "yes" : "no",
-        'position_checkout_subtotal': jQuery(".wceazy_pre_order_position_checkout_subtotal select").val(),
-        'cart_checkout_headline': jQuery(".wceazy_pre_order_cart_checkout_headline input").val(), 
-
-        'position': jQuery(".wceazy_pre_order_position select").val(),
-        'layout': jQuery(".wceazy_pre_order_layout select").val(),
-        /*'bg': jQuery(".wceazy_pre_order_bg input").val(),*/
-        'padding_top': jQuery(".wceazy_pre_order_padding_top input").val(),
-        'padding_bottom': jQuery(".wceazy_pre_order_padding_bottom input").val(),
-        'padding_left_right': jQuery(".wceazy_pre_order_padding_left_right input").val(),
-        /*'msg_text_color': jQuery(".wceazy_pre_order_msg_text_color input").val(),
-        'msg_link_text_color': jQuery(".wceazy_pre_order_msg_link_text_color input").val(),*/
-        'msg_font_size': jQuery(".wceazy_pre_order_msg_font_size input").val(),
-        'msg_text_align': jQuery(".wceazy_pre_order_msg_text_align select").val(),
-        'remove_icon': jQuery(".wceazy_pre_order_remove_icon .icon_field_item.active").attr("data-value"),
-        /*'remove_icon_color': jQuery(".wceazy_pre_order_remove_icon_color input").val(),*/
-        'remove_icon_size': jQuery(".wceazy_pre_order_remove_icon_size input").val(),
-        'enable_progress_bar': jQuery(".wceazy_pre_order_enable_progress_bar input[type='checkbox']:checked").length > 0 ? "yes" : "no",
-        'progress_margin_top': jQuery(".wceazy_pre_order_progress_margin_top input").val(),
-        /*'progress_bar_bg': jQuery(".wceazy_pre_order_progress_bar_bg input").val(),
-        'progress_color': jQuery(".wceazy_pre_order_progress_color input").val(),
-        'progress_text_color': jQuery(".wceazy_pre_order_progress_text_color input").val(),*/
-        'progress_font_size': jQuery(".wceazy_pre_order_progress_font_size input").val(),
-        'progress_border_radius': jQuery(".wceazy_pre_order_progress_border_radius input").val(),
-
-
-
+    printf(hello);
+    
+    jQuery(".wceazy_pre_order_bottom_button_section button").text(
+        "Please Wait.."
+    );
+    jQuery(".wceazy_pre_order_bottom_button_section button").prop(
+        "disabled",
+        true
+    );
+    let postData = {
+        enable_pre_order:
+            jQuery(
+                ".wceazy_pre_order_enable_pre_order input[type='checkbox']:checked"
+            ).length > 0
+                ? "yes"
+                : "no",
+        pre_order_btn_text: jQuery(
+            ".wceazy_pre_order_btn_text input[type='text']"
+        ).val(),
+        pre_order_custom_email: jQuery(
+            ".wceazy_pre_order_custom_email input[type='text']"
+        ).val(),
+        pre_order_admin_email: jQuery(
+            ".wceazy_pre_order_admin_emaill input[type='text']"
+        ).val(), // corrected the class name
+        // Add other fields here
     };
 
-
-
-    let jQuerypost_data = { 'action': 'wceazy_pre_order_save', 'data': jQuerypostData };
+    let post_data = {
+        action: "wceazy_pre_order_save",
+        data: postData,
+    };
 
     jQuery.ajax({
-        url: ajaxurl, type: "POST", data: jQuerypost_data,
+        url: ajaxurl,
+        type: "POST",
+        data: post_data,
         success: function (data) {
             var obj = JSON.parse(data);
-            if (obj.status == 'true') {
-                Command: toastr["success"]("Settings Saved Successfully Ew !");
-                jQuery('.wceazy_pre_order_bottom_button_section button').text('Save Settings');
-                jQuery('.wceazy_pre_order_bottom_button_section button').prop('disabled', false);
+            if (obj.status == "true") {
+                Command: toastr["success"]("Settings Saved Successfully Free !");
+                jQuery(".wceazy_pre_order_bottom_button_section button").text(
+                    "Save Settings"
+                );
+                jQuery(".wceazy_pre_order_bottom_button_section button").prop(
+                    "disabled",
+                    false
+                );
             } else {
                 Command: toastr["error"]("Failed, Please try again!");
-                jQuery('.wceazy_pre_order_bottom_button_section button').text('Save Settings');
-                jQuery('.wceazy_pre_order_bottom_button_section button').prop('disabled', false);
+                jQuery(".wceazy_pre_order_bottom_button_section button").text(
+                    "Save Settings"
+                );
+                jQuery(".wceazy_pre_order_bottom_button_section button").prop(
+                    "disabled",
+                    false
+                );
             }
-        }
+        },
     });
 }
+
 
 

@@ -1,8 +1,6 @@
 <?php
- 
 
 $result = array();
-
 
 /* Check if user has manage option capabilities */
 if (current_user_can('manage_options')) {

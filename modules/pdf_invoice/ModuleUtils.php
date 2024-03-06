@@ -19,7 +19,8 @@ if (!class_exists ('WcEazyPdfInvoiceUtils')) {
 
         public function saveSettings($post_data){
             if(!empty($post_data)){
-                update_option( 'wceazy_pdf_invoice_settings', json_encode($post_data) );
+                 
+                  update_option( 'wceazy_pdf_invoice_settings', json_encode($post_data) );
             }
         }
 

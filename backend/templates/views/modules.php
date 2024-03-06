@@ -282,33 +282,7 @@
         </div>
  
 
-        <div class="wceazy_module_item" data-slug="pre_order">
-            <div class="wceazy_module_logo">
-                <img src="<?php echo esc_url(WCEAZY_IMG_DIR . 'modules/pre_order/icon.svg'); ?>" height="100" />
-            </div>
-            <div class="wceazy_module_details">
-                <h3><?php esc_html_e('Pre Order', 'wceazy'); ?></h3>
-                <div class="wceazy_module_action">
-                    <label class="toggle_switch">
-                        <input type="checkbox" onchange="wceazy_update_module_status(this)"
-                            <?php echo ($this->settings->getModuleStatus("pre_order") == 1 ? "checked" : ""); ?>>
-                        <span class="slider round"></span>
-                    </label>
-
-                    <div class="settings_btn <?php echo ($this->settings->getModuleStatus("pre_order") == 1 ? "active" : ""); ?>"
-                        onclick="wceazy_start_module_settings(`<?php echo esc_url(WCEAZY_PRO_URL); ?>`, this)">
-                        <?php esc_html_e('Settings', 'wceazy'); ?>
-                    </div>
-                    <a class="wceazy_module_docs" target="_blank"
-                        href="<?php echo WCEAZY_PRO_DOCS_PAGE; ?>"><?php esc_html_e('Documentation', 'wceazy'); ?></a>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- NF Tushar -->
-
-
+   
 
         <div class="wceazy_module_item" data-slug="address_book">
             <div class="wceazy_module_logo">
@@ -350,10 +324,12 @@
                         <input type="checkbox" onchange="wceazy_update_module_status(this)" <?php echo ($this->settings->getModuleStatus("product_filter") == 1 ? "checked" : ""); ?>>
                         <span class="slider round"></span>
                     </label>
+
                     <div class="settings_btn <?php echo ($this->settings->getModuleStatus("product_filter") == 1 ? "active" : ""); ?>"
                         onclick="wceazy_start_module_settings(`<?php echo esc_url(WCEAZY_PRO_URL); ?>`, this)">
                         <?php esc_html_e(' Settings', 'wceazy'); ?>
                     </div>
+
                     <a class="wceazy_module_docs" target="_blank" href="<?php echo WCEAZY_PRO_DOCS_PAGE; ?>">
                         <?php esc_html_e('Documentation', 'wceazy'); ?>
                     </a>
@@ -385,6 +361,40 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="wceazy_module_item" data-slug="pre_order">
+            <div class="wceazy_module_logo">
+                <img src="<?php echo esc_url(WCEAZY_IMG_DIR . 'modules/pre_order/icon.svg'); ?>" height="100" />
+            </div>
+            <div class="wceazy_module_details">
+                <h3><?php esc_html_e('Pre Order', 'wceazy'); ?></h3>
+
+
+                <div class="wceazy_module_action">
+                    <label class="toggle_switch">
+                        <input type="checkbox" onchange="wceazy_update_module_status(this)"
+                            <?php echo ($this->settings->getModuleStatus("pre_order") == 1 ? "checked" : ""); ?>>
+                        <span class="slider round"></span>
+                    </label>
+
+
+                    <div class="settings_btn <?php echo ($this->settings->getModuleStatus("pre_order") == 1 ? "active" : ""); ?>"
+                        onclick="wceazy_start_module_settings(`<?php echo esc_url(WCEAZY_PRO_URL); ?>`, this)">
+                        <?php esc_html_e('Settings', 'wceazy'); ?>
+                    </div>
+<!-- backend\templates\views\modules.php -->
+
+                    <a class="wceazy_module_docs" target="_blank"
+                        href="<?php echo WCEAZY_PRO_DOCS_PAGE; ?>"><?php esc_html_e('Documentation', 'wceazy'); ?></a> 
+                </div>
+
+
+
+
+            </div>
+        </div> 
+        <!-- NF Tushar -->
 
     </div>
 </div>

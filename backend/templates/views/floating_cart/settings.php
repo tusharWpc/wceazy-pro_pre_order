@@ -421,6 +421,15 @@ $wceazy_fc_basket_count_bg_color = isset($wceazy_fc_settings["basket_count_bg_co
                                 <small><?php esc_html_e('Customize the continue shopping button text.', 'wceazy'); ?></small>
                             </div>
                         </div>
+                        <div class="wceazy_floating_cart_field_group wceazy_floating_cart_continue_btn_text">
+                            <label
+                                for="coupon_generator_coupon_amount"><?php esc_html_e('Continue Shopping Button', 'wceazy'); ?></label>
+                            <div class="field_with_msg_container">
+                                <input class="wceazy_floating_cart_text_field" type="text" placeholder=""
+                                    value="<?php echo esc_attr($wceazy_fc_continue_btn_text); ?>">
+                                <small><?php esc_html_e('Customize the continue shopping button text.', 'wceazy'); ?></small>
+                            </div>
+                        </div>
 
                         <div class="wceazy_floating_cart_field_group wceazy_floating_cart_view_cart_text">
                             <label

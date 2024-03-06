@@ -274,7 +274,7 @@ function wceazy_pdf_invoice_save() {
         success: function (data) {
             var obj = JSON.parse(data);
             if (obj.status == 'true') {
-                Command: toastr["success"]("Settings Saved Successfully!");
+                Command: toastr["success"]("Settings Saved Successfully! Pre");
                 jQuery('.wceazy_pdf_invoice_bottom_button_section button').text('Save Settings');
                 jQuery('.wceazy_pdf_invoice_bottom_button_section button').prop('disabled', false);
             } else {
